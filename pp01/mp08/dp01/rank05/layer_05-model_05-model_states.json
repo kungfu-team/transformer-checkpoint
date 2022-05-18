@@ -1,0 +1,42 @@
+{
+    "input_layernorm.weight": [
+        1024
+    ],
+    "input_layernorm.bias": [
+        1024
+    ],
+    "attention.query_key_value.weight": [
+        384,
+        1024
+    ],
+    "attention.query_key_value.bias": [
+        384
+    ],
+    "attention.dense.weight": [
+        1024,
+        128
+    ],
+    "attention.dense.bias": [
+        1024
+    ],
+    "post_attention_layernorm.weight": [
+        1024
+    ],
+    "post_attention_layernorm.bias": [
+        1024
+    ],
+    "mlp.dense_h_to_4h.weight": [
+        512,
+        1024
+    ],
+    "mlp.dense_h_to_4h.bias": [
+        512
+    ],
+    "mlp.dense_4h_to_h.weight": [
+        1024,
+        512
+    ],
+    "mlp.dense_4h_to_h.bias": [
+        1024
+    ]
+}

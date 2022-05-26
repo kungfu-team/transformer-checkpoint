@@ -1,0 +1,746 @@
+{
+    "weight_decay": {
+        "tied_modules.embed.word_embeddings": {
+            "weight": [
+                50304,
+                1024
+            ]
+        },
+        "tied_modules.embed.position_embeddings": {
+            "weight": [
+                1024,
+                1024
+            ]
+        },
+        "14.attention.query_key_value": {
+            "weight": [
+                3072,
+                1024
+            ]
+        },
+        "14.attention.dense": {
+            "weight": [
+                1024,
+                1024
+            ]
+        },
+        "14.mlp.dense_h_to_4h": {
+            "weight": [
+                4096,
+                1024
+            ]
+        },
+        "14.mlp.dense_4h_to_h": {
+            "weight": [
+                1024,
+                4096
+            ]
+        },
+        "15.attention.query_key_value": {
+            "weight": [
+                3072,
+                1024
+            ]
+        },
+        "15.attention.dense": {
+            "weight": [
+                1024,
+                1024
+            ]
+        },
+        "15.mlp.dense_h_to_4h": {
+            "weight": [
+                4096,
+                1024
+            ]
+        },
+        "15.mlp.dense_4h_to_h": {
+            "weight": [
+                1024,
+                4096
+            ]
+        },
+        "16.attention.query_key_value": {
+            "weight": [
+                3072,
+                1024
+            ]
+        },
+        "16.attention.dense": {
+            "weight": [
+                1024,
+                1024
+            ]
+        },
+        "16.mlp.dense_h_to_4h": {
+            "weight": [
+                4096,
+                1024
+            ]
+        },
+        "16.mlp.dense_4h_to_h": {
+            "weight": [
+                1024,
+                4096
+            ]
+        },
+        "17.attention.query_key_value": {
+            "weight": [
+                3072,
+                1024
+            ]
+        },
+        "17.attention.dense": {
+            "weight": [
+                1024,
+                1024
+            ]
+        },
+        "17.mlp.dense_h_to_4h": {
+            "weight": [
+                4096,
+                1024
+            ]
+        },
+        "17.mlp.dense_4h_to_h": {
+            "weight": [
+                1024,
+                4096
+            ]
+        },
+        "18.attention.query_key_value": {
+            "weight": [
+                3072,
+                1024
+            ]
+        },
+        "18.attention.dense": {
+            "weight": [
+                1024,
+                1024
+            ]
+        },
+        "18.mlp.dense_h_to_4h": {
+            "weight": [
+                4096,
+                1024
+            ]
+        },
+        "18.mlp.dense_4h_to_h": {
+            "weight": [
+                1024,
+                4096
+            ]
+        },
+        "19.attention.query_key_value": {
+            "weight": [
+                3072,
+                1024
+            ]
+        },
+        "19.attention.dense": {
+            "weight": [
+                1024,
+                1024
+            ]
+        },
+        "19.mlp.dense_h_to_4h": {
+            "weight": [
+                4096,
+                1024
+            ]
+        },
+        "19.mlp.dense_4h_to_h": {
+            "weight": [
+                1024,
+                4096
+            ]
+        },
+        "20.attention.query_key_value": {
+            "weight": [
+                3072,
+                1024
+            ]
+        },
+        "20.attention.dense": {
+            "weight": [
+                1024,
+                1024
+            ]
+        },
+        "20.mlp.dense_h_to_4h": {
+            "weight": [
+                4096,
+                1024
+            ]
+        },
+        "20.mlp.dense_4h_to_h": {
+            "weight": [
+                1024,
+                4096
+            ]
+        },
+        "21.attention.query_key_value": {
+            "weight": [
+                3072,
+                1024
+            ]
+        },
+        "21.attention.dense": {
+            "weight": [
+                1024,
+                1024
+            ]
+        },
+        "21.mlp.dense_h_to_4h": {
+            "weight": [
+                4096,
+                1024
+            ]
+        },
+        "21.mlp.dense_4h_to_h": {
+            "weight": [
+                1024,
+                4096
+            ]
+        },
+        "22.attention.query_key_value": {
+            "weight": [
+                3072,
+                1024
+            ]
+        },
+        "22.attention.dense": {
+            "weight": [
+                1024,
+                1024
+            ]
+        },
+        "22.mlp.dense_h_to_4h": {
+            "weight": [
+                4096,
+                1024
+            ]
+        },
+        "22.mlp.dense_4h_to_h": {
+            "weight": [
+                1024,
+                4096
+            ]
+        },
+        "23.attention.query_key_value": {
+            "weight": [
+                3072,
+                1024
+            ]
+        },
+        "23.attention.dense": {
+            "weight": [
+                1024,
+                1024
+            ]
+        },
+        "23.mlp.dense_h_to_4h": {
+            "weight": [
+                4096,
+                1024
+            ]
+        },
+        "23.mlp.dense_4h_to_h": {
+            "weight": [
+                1024,
+                4096
+            ]
+        },
+        "24.attention.query_key_value": {
+            "weight": [
+                3072,
+                1024
+            ]
+        },
+        "24.attention.dense": {
+            "weight": [
+                1024,
+                1024
+            ]
+        },
+        "24.mlp.dense_h_to_4h": {
+            "weight": [
+                4096,
+                1024
+            ]
+        },
+        "24.mlp.dense_4h_to_h": {
+            "weight": [
+                1024,
+                4096
+            ]
+        },
+        "25.attention.query_key_value": {
+            "weight": [
+                3072,
+                1024
+            ]
+        },
+        "25.attention.dense": {
+            "weight": [
+                1024,
+                1024
+            ]
+        },
+        "25.mlp.dense_h_to_4h": {
+            "weight": [
+                4096,
+                1024
+            ]
+        },
+        "25.mlp.dense_4h_to_h": {
+            "weight": [
+                1024,
+                4096
+            ]
+        }
+    },
+    "no_weight_decay": {
+        "14.input_layernorm": {
+            "weight": [
+                1024
+            ],
+            "bias": [
+                1024
+            ]
+        },
+        "14.attention.query_key_value": {
+            "bias": [
+                3072
+            ]
+        },
+        "14.attention.dense": {
+            "bias": [
+                1024
+            ]
+        },
+        "14.post_attention_layernorm": {
+            "weight": [
+                1024
+            ],
+            "bias": [
+                1024
+            ]
+        },
+        "14.mlp.dense_h_to_4h": {
+            "bias": [
+                4096
+            ]
+        },
+        "14.mlp.dense_4h_to_h": {
+            "bias": [
+                1024
+            ]
+        },
+        "15.input_layernorm": {
+            "weight": [
+                1024
+            ],
+            "bias": [
+                1024
+            ]
+        },
+        "15.attention.query_key_value": {
+            "bias": [
+                3072
+            ]
+        },
+        "15.attention.dense": {
+            "bias": [
+                1024
+            ]
+        },
+        "15.post_attention_layernorm": {
+            "weight": [
+                1024
+            ],
+            "bias": [
+                1024
+            ]
+        },
+        "15.mlp.dense_h_to_4h": {
+            "bias": [
+                4096
+            ]
+        },
+        "15.mlp.dense_4h_to_h": {
+            "bias": [
+                1024
+            ]
+        },
+        "16.input_layernorm": {
+            "weight": [
+                1024
+            ],
+            "bias": [
+                1024
+            ]
+        },
+        "16.attention.query_key_value": {
+            "bias": [
+                3072
+            ]
+        },
+        "16.attention.dense": {
+            "bias": [
+                1024
+            ]
+        },
+        "16.post_attention_layernorm": {
+            "weight": [
+                1024
+            ],
+            "bias": [
+                1024
+            ]
+        },
+        "16.mlp.dense_h_to_4h": {
+            "bias": [
+                4096
+            ]
+        },
+        "16.mlp.dense_4h_to_h": {
+            "bias": [
+                1024
+            ]
+        },
+        "17.input_layernorm": {
+            "weight": [
+                1024
+            ],
+            "bias": [
+                1024
+            ]
+        },
+        "17.attention.query_key_value": {
+            "bias": [
+                3072
+            ]
+        },
+        "17.attention.dense": {
+            "bias": [
+                1024
+            ]
+        },
+        "17.post_attention_layernorm": {
+            "weight": [
+                1024
+            ],
+            "bias": [
+                1024
+            ]
+        },
+        "17.mlp.dense_h_to_4h": {
+            "bias": [
+                4096
+            ]
+        },
+        "17.mlp.dense_4h_to_h": {
+            "bias": [
+                1024
+            ]
+        },
+        "18.input_layernorm": {
+            "weight": [
+                1024
+            ],
+            "bias": [
+                1024
+            ]
+        },
+        "18.attention.query_key_value": {
+            "bias": [
+                3072
+            ]
+        },
+        "18.attention.dense": {
+            "bias": [
+                1024
+            ]
+        },
+        "18.post_attention_layernorm": {
+            "weight": [
+                1024
+            ],
+            "bias": [
+                1024
+            ]
+        },
+        "18.mlp.dense_h_to_4h": {
+            "bias": [
+                4096
+            ]
+        },
+        "18.mlp.dense_4h_to_h": {
+            "bias": [
+                1024
+            ]
+        },
+        "19.input_layernorm": {
+            "weight": [
+                1024
+            ],
+            "bias": [
+                1024
+            ]
+        },
+        "19.attention.query_key_value": {
+            "bias": [
+                3072
+            ]
+        },
+        "19.attention.dense": {
+            "bias": [
+                1024
+            ]
+        },
+        "19.post_attention_layernorm": {
+            "weight": [
+                1024
+            ],
+            "bias": [
+                1024
+            ]
+        },
+        "19.mlp.dense_h_to_4h": {
+            "bias": [
+                4096
+            ]
+        },
+        "19.mlp.dense_4h_to_h": {
+            "bias": [
+                1024
+            ]
+        },
+        "20.input_layernorm": {
+            "weight": [
+                1024
+            ],
+            "bias": [
+                1024
+            ]
+        },
+        "20.attention.query_key_value": {
+            "bias": [
+                3072
+            ]
+        },
+        "20.attention.dense": {
+            "bias": [
+                1024
+            ]
+        },
+        "20.post_attention_layernorm": {
+            "weight": [
+                1024
+            ],
+            "bias": [
+                1024
+            ]
+        },
+        "20.mlp.dense_h_to_4h": {
+            "bias": [
+                4096
+            ]
+        },
+        "20.mlp.dense_4h_to_h": {
+            "bias": [
+                1024
+            ]
+        },
+        "21.input_layernorm": {
+            "weight": [
+                1024
+            ],
+            "bias": [
+                1024
+            ]
+        },
+        "21.attention.query_key_value": {
+            "bias": [
+                3072
+            ]
+        },
+        "21.attention.dense": {
+            "bias": [
+                1024
+            ]
+        },
+        "21.post_attention_layernorm": {
+            "weight": [
+                1024
+            ],
+            "bias": [
+                1024
+            ]
+        },
+        "21.mlp.dense_h_to_4h": {
+            "bias": [
+                4096
+            ]
+        },
+        "21.mlp.dense_4h_to_h": {
+            "bias": [
+                1024
+            ]
+        },
+        "22.input_layernorm": {
+            "weight": [
+                1024
+            ],
+            "bias": [
+                1024
+            ]
+        },
+        "22.attention.query_key_value": {
+            "bias": [
+                3072
+            ]
+        },
+        "22.attention.dense": {
+            "bias": [
+                1024
+            ]
+        },
+        "22.post_attention_layernorm": {
+            "weight": [
+                1024
+            ],
+            "bias": [
+                1024
+            ]
+        },
+        "22.mlp.dense_h_to_4h": {
+            "bias": [
+                4096
+            ]
+        },
+        "22.mlp.dense_4h_to_h": {
+            "bias": [
+                1024
+            ]
+        },
+        "23.input_layernorm": {
+            "weight": [
+                1024
+            ],
+            "bias": [
+                1024
+            ]
+        },
+        "23.attention.query_key_value": {
+            "bias": [
+                3072
+            ]
+        },
+        "23.attention.dense": {
+            "bias": [
+                1024
+            ]
+        },
+        "23.post_attention_layernorm": {
+            "weight": [
+                1024
+            ],
+            "bias": [
+                1024
+            ]
+        },
+        "23.mlp.dense_h_to_4h": {
+            "bias": [
+                4096
+            ]
+        },
+        "23.mlp.dense_4h_to_h": {
+            "bias": [
+                1024
+            ]
+        },
+        "24.input_layernorm": {
+            "weight": [
+                1024
+            ],
+            "bias": [
+                1024
+            ]
+        },
+        "24.attention.query_key_value": {
+            "bias": [
+                3072
+            ]
+        },
+        "24.attention.dense": {
+            "bias": [
+                1024
+            ]
+        },
+        "24.post_attention_layernorm": {
+            "weight": [
+                1024
+            ],
+            "bias": [
+                1024
+            ]
+        },
+        "24.mlp.dense_h_to_4h": {
+            "bias": [
+                4096
+            ]
+        },
+        "24.mlp.dense_4h_to_h": {
+            "bias": [
+                1024
+            ]
+        },
+        "25.input_layernorm": {
+            "weight": [
+                1024
+            ],
+            "bias": [
+                1024
+            ]
+        },
+        "25.attention.query_key_value": {
+            "bias": [
+                3072
+            ]
+        },
+        "25.attention.dense": {
+            "bias": [
+                1024
+            ]
+        },
+        "25.post_attention_layernorm": {
+            "weight": [
+                1024
+            ],
+            "bias": [
+                1024
+            ]
+        },
+        "25.mlp.dense_h_to_4h": {
+            "bias": [
+                4096
+            ]
+        },
+        "25.mlp.dense_4h_to_h": {
+            "bias": [
+                1024
+            ]
+        },
+        "27": {
+            "weight": [
+                1024
+            ],
+            "bias": [
+                1024
+            ]
+        }
+    }
+}

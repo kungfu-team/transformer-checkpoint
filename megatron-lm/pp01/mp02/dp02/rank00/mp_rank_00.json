@@ -16,7 +16,7 @@
                 "position_embeddings": {
                     "weight": {
                         "tensor": [
-                            512,
+                            1024,
                             1024
                         ]
                     }
@@ -1654,13 +1654,13 @@
                 "1": {
                     "exp_avg": {
                         "tensor": [
-                            512,
+                            1024,
                             1024
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            512,
+                            1024,
                             1024
                         ]
                     }
@@ -5820,7 +5820,7 @@
                 },
                 {
                     "tensor": [
-                        512,
+                        1024,
                         1024
                     ]
                 },
@@ -7439,7 +7439,7 @@
         "start_wd": 0.01,
         "end_wd": 0.01,
         "wd_incr_style": "constant",
-        "wd_incr_steps": 12800
+        "wd_incr_steps": 1600
     },
     "rng_state": [
         {

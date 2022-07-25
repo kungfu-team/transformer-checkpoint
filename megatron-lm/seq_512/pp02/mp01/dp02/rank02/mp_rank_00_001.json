@@ -1,0 +1,4539 @@
+{
+    "args": "NotPrimitiveNorTensor",
+    "checkpoint_version": 3.0,
+    "iteration": 50,
+    "model": {
+        "language_model": {
+            "encoder": {
+                "layers.0.input_layernorm.weight": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.0.input_layernorm.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.0.self_attention.query_key_value.weight": {
+                    "tensor": [
+                        3072,
+                        1024
+                    ]
+                },
+                "layers.0.self_attention.query_key_value.bias": {
+                    "tensor": [
+                        3072
+                    ]
+                },
+                "layers.0.self_attention.dense.weight": {
+                    "tensor": [
+                        1024,
+                        1024
+                    ]
+                },
+                "layers.0.self_attention.dense.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.0.post_attention_layernorm.weight": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.0.post_attention_layernorm.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.0.mlp.dense_h_to_4h.weight": {
+                    "tensor": [
+                        4096,
+                        1024
+                    ]
+                },
+                "layers.0.mlp.dense_h_to_4h.bias": {
+                    "tensor": [
+                        4096
+                    ]
+                },
+                "layers.0.mlp.dense_4h_to_h.weight": {
+                    "tensor": [
+                        1024,
+                        4096
+                    ]
+                },
+                "layers.0.mlp.dense_4h_to_h.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.1.input_layernorm.weight": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.1.input_layernorm.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.1.self_attention.query_key_value.weight": {
+                    "tensor": [
+                        3072,
+                        1024
+                    ]
+                },
+                "layers.1.self_attention.query_key_value.bias": {
+                    "tensor": [
+                        3072
+                    ]
+                },
+                "layers.1.self_attention.dense.weight": {
+                    "tensor": [
+                        1024,
+                        1024
+                    ]
+                },
+                "layers.1.self_attention.dense.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.1.post_attention_layernorm.weight": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.1.post_attention_layernorm.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.1.mlp.dense_h_to_4h.weight": {
+                    "tensor": [
+                        4096,
+                        1024
+                    ]
+                },
+                "layers.1.mlp.dense_h_to_4h.bias": {
+                    "tensor": [
+                        4096
+                    ]
+                },
+                "layers.1.mlp.dense_4h_to_h.weight": {
+                    "tensor": [
+                        1024,
+                        4096
+                    ]
+                },
+                "layers.1.mlp.dense_4h_to_h.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.2.input_layernorm.weight": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.2.input_layernorm.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.2.self_attention.query_key_value.weight": {
+                    "tensor": [
+                        3072,
+                        1024
+                    ]
+                },
+                "layers.2.self_attention.query_key_value.bias": {
+                    "tensor": [
+                        3072
+                    ]
+                },
+                "layers.2.self_attention.dense.weight": {
+                    "tensor": [
+                        1024,
+                        1024
+                    ]
+                },
+                "layers.2.self_attention.dense.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.2.post_attention_layernorm.weight": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.2.post_attention_layernorm.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.2.mlp.dense_h_to_4h.weight": {
+                    "tensor": [
+                        4096,
+                        1024
+                    ]
+                },
+                "layers.2.mlp.dense_h_to_4h.bias": {
+                    "tensor": [
+                        4096
+                    ]
+                },
+                "layers.2.mlp.dense_4h_to_h.weight": {
+                    "tensor": [
+                        1024,
+                        4096
+                    ]
+                },
+                "layers.2.mlp.dense_4h_to_h.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.3.input_layernorm.weight": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.3.input_layernorm.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.3.self_attention.query_key_value.weight": {
+                    "tensor": [
+                        3072,
+                        1024
+                    ]
+                },
+                "layers.3.self_attention.query_key_value.bias": {
+                    "tensor": [
+                        3072
+                    ]
+                },
+                "layers.3.self_attention.dense.weight": {
+                    "tensor": [
+                        1024,
+                        1024
+                    ]
+                },
+                "layers.3.self_attention.dense.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.3.post_attention_layernorm.weight": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.3.post_attention_layernorm.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.3.mlp.dense_h_to_4h.weight": {
+                    "tensor": [
+                        4096,
+                        1024
+                    ]
+                },
+                "layers.3.mlp.dense_h_to_4h.bias": {
+                    "tensor": [
+                        4096
+                    ]
+                },
+                "layers.3.mlp.dense_4h_to_h.weight": {
+                    "tensor": [
+                        1024,
+                        4096
+                    ]
+                },
+                "layers.3.mlp.dense_4h_to_h.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.4.input_layernorm.weight": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.4.input_layernorm.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.4.self_attention.query_key_value.weight": {
+                    "tensor": [
+                        3072,
+                        1024
+                    ]
+                },
+                "layers.4.self_attention.query_key_value.bias": {
+                    "tensor": [
+                        3072
+                    ]
+                },
+                "layers.4.self_attention.dense.weight": {
+                    "tensor": [
+                        1024,
+                        1024
+                    ]
+                },
+                "layers.4.self_attention.dense.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.4.post_attention_layernorm.weight": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.4.post_attention_layernorm.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.4.mlp.dense_h_to_4h.weight": {
+                    "tensor": [
+                        4096,
+                        1024
+                    ]
+                },
+                "layers.4.mlp.dense_h_to_4h.bias": {
+                    "tensor": [
+                        4096
+                    ]
+                },
+                "layers.4.mlp.dense_4h_to_h.weight": {
+                    "tensor": [
+                        1024,
+                        4096
+                    ]
+                },
+                "layers.4.mlp.dense_4h_to_h.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.5.input_layernorm.weight": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.5.input_layernorm.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.5.self_attention.query_key_value.weight": {
+                    "tensor": [
+                        3072,
+                        1024
+                    ]
+                },
+                "layers.5.self_attention.query_key_value.bias": {
+                    "tensor": [
+                        3072
+                    ]
+                },
+                "layers.5.self_attention.dense.weight": {
+                    "tensor": [
+                        1024,
+                        1024
+                    ]
+                },
+                "layers.5.self_attention.dense.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.5.post_attention_layernorm.weight": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.5.post_attention_layernorm.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.5.mlp.dense_h_to_4h.weight": {
+                    "tensor": [
+                        4096,
+                        1024
+                    ]
+                },
+                "layers.5.mlp.dense_h_to_4h.bias": {
+                    "tensor": [
+                        4096
+                    ]
+                },
+                "layers.5.mlp.dense_4h_to_h.weight": {
+                    "tensor": [
+                        1024,
+                        4096
+                    ]
+                },
+                "layers.5.mlp.dense_4h_to_h.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.6.input_layernorm.weight": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.6.input_layernorm.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.6.self_attention.query_key_value.weight": {
+                    "tensor": [
+                        3072,
+                        1024
+                    ]
+                },
+                "layers.6.self_attention.query_key_value.bias": {
+                    "tensor": [
+                        3072
+                    ]
+                },
+                "layers.6.self_attention.dense.weight": {
+                    "tensor": [
+                        1024,
+                        1024
+                    ]
+                },
+                "layers.6.self_attention.dense.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.6.post_attention_layernorm.weight": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.6.post_attention_layernorm.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.6.mlp.dense_h_to_4h.weight": {
+                    "tensor": [
+                        4096,
+                        1024
+                    ]
+                },
+                "layers.6.mlp.dense_h_to_4h.bias": {
+                    "tensor": [
+                        4096
+                    ]
+                },
+                "layers.6.mlp.dense_4h_to_h.weight": {
+                    "tensor": [
+                        1024,
+                        4096
+                    ]
+                },
+                "layers.6.mlp.dense_4h_to_h.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.7.input_layernorm.weight": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.7.input_layernorm.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.7.self_attention.query_key_value.weight": {
+                    "tensor": [
+                        3072,
+                        1024
+                    ]
+                },
+                "layers.7.self_attention.query_key_value.bias": {
+                    "tensor": [
+                        3072
+                    ]
+                },
+                "layers.7.self_attention.dense.weight": {
+                    "tensor": [
+                        1024,
+                        1024
+                    ]
+                },
+                "layers.7.self_attention.dense.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.7.post_attention_layernorm.weight": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.7.post_attention_layernorm.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.7.mlp.dense_h_to_4h.weight": {
+                    "tensor": [
+                        4096,
+                        1024
+                    ]
+                },
+                "layers.7.mlp.dense_h_to_4h.bias": {
+                    "tensor": [
+                        4096
+                    ]
+                },
+                "layers.7.mlp.dense_4h_to_h.weight": {
+                    "tensor": [
+                        1024,
+                        4096
+                    ]
+                },
+                "layers.7.mlp.dense_4h_to_h.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.8.input_layernorm.weight": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.8.input_layernorm.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.8.self_attention.query_key_value.weight": {
+                    "tensor": [
+                        3072,
+                        1024
+                    ]
+                },
+                "layers.8.self_attention.query_key_value.bias": {
+                    "tensor": [
+                        3072
+                    ]
+                },
+                "layers.8.self_attention.dense.weight": {
+                    "tensor": [
+                        1024,
+                        1024
+                    ]
+                },
+                "layers.8.self_attention.dense.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.8.post_attention_layernorm.weight": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.8.post_attention_layernorm.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.8.mlp.dense_h_to_4h.weight": {
+                    "tensor": [
+                        4096,
+                        1024
+                    ]
+                },
+                "layers.8.mlp.dense_h_to_4h.bias": {
+                    "tensor": [
+                        4096
+                    ]
+                },
+                "layers.8.mlp.dense_4h_to_h.weight": {
+                    "tensor": [
+                        1024,
+                        4096
+                    ]
+                },
+                "layers.8.mlp.dense_4h_to_h.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.9.input_layernorm.weight": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.9.input_layernorm.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.9.self_attention.query_key_value.weight": {
+                    "tensor": [
+                        3072,
+                        1024
+                    ]
+                },
+                "layers.9.self_attention.query_key_value.bias": {
+                    "tensor": [
+                        3072
+                    ]
+                },
+                "layers.9.self_attention.dense.weight": {
+                    "tensor": [
+                        1024,
+                        1024
+                    ]
+                },
+                "layers.9.self_attention.dense.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.9.post_attention_layernorm.weight": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.9.post_attention_layernorm.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.9.mlp.dense_h_to_4h.weight": {
+                    "tensor": [
+                        4096,
+                        1024
+                    ]
+                },
+                "layers.9.mlp.dense_h_to_4h.bias": {
+                    "tensor": [
+                        4096
+                    ]
+                },
+                "layers.9.mlp.dense_4h_to_h.weight": {
+                    "tensor": [
+                        1024,
+                        4096
+                    ]
+                },
+                "layers.9.mlp.dense_4h_to_h.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.10.input_layernorm.weight": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.10.input_layernorm.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.10.self_attention.query_key_value.weight": {
+                    "tensor": [
+                        3072,
+                        1024
+                    ]
+                },
+                "layers.10.self_attention.query_key_value.bias": {
+                    "tensor": [
+                        3072
+                    ]
+                },
+                "layers.10.self_attention.dense.weight": {
+                    "tensor": [
+                        1024,
+                        1024
+                    ]
+                },
+                "layers.10.self_attention.dense.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.10.post_attention_layernorm.weight": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.10.post_attention_layernorm.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.10.mlp.dense_h_to_4h.weight": {
+                    "tensor": [
+                        4096,
+                        1024
+                    ]
+                },
+                "layers.10.mlp.dense_h_to_4h.bias": {
+                    "tensor": [
+                        4096
+                    ]
+                },
+                "layers.10.mlp.dense_4h_to_h.weight": {
+                    "tensor": [
+                        1024,
+                        4096
+                    ]
+                },
+                "layers.10.mlp.dense_4h_to_h.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.11.input_layernorm.weight": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.11.input_layernorm.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.11.self_attention.query_key_value.weight": {
+                    "tensor": [
+                        3072,
+                        1024
+                    ]
+                },
+                "layers.11.self_attention.query_key_value.bias": {
+                    "tensor": [
+                        3072
+                    ]
+                },
+                "layers.11.self_attention.dense.weight": {
+                    "tensor": [
+                        1024,
+                        1024
+                    ]
+                },
+                "layers.11.self_attention.dense.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.11.post_attention_layernorm.weight": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.11.post_attention_layernorm.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "layers.11.mlp.dense_h_to_4h.weight": {
+                    "tensor": [
+                        4096,
+                        1024
+                    ]
+                },
+                "layers.11.mlp.dense_h_to_4h.bias": {
+                    "tensor": [
+                        4096
+                    ]
+                },
+                "layers.11.mlp.dense_4h_to_h.weight": {
+                    "tensor": [
+                        1024,
+                        4096
+                    ]
+                },
+                "layers.11.mlp.dense_4h_to_h.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "final_layernorm.weight": {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                "final_layernorm.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                }
+            },
+            "pooler": {
+                "dense.weight": {
+                    "tensor": [
+                        1024,
+                        1024
+                    ]
+                },
+                "dense.bias": {
+                    "tensor": [
+                        1024
+                    ]
+                }
+            }
+        },
+        "lm_head": {
+            "bias": {
+                "tensor": [
+                    30592
+                ]
+            },
+            "dense.weight": {
+                "tensor": [
+                    1024,
+                    1024
+                ]
+            },
+            "dense.bias": {
+                "tensor": [
+                    1024
+                ]
+            },
+            "layernorm.weight": {
+                "tensor": [
+                    1024
+                ]
+            },
+            "layernorm.bias": {
+                "tensor": [
+                    1024
+                ]
+            }
+        },
+        "binary_head": {
+            "weight": {
+                "tensor": [
+                    2,
+                    1024
+                ]
+            },
+            "bias": {
+                "tensor": [
+                    2
+                ]
+            }
+        },
+        "word_embeddings_for_head": {
+            "weight": {
+                "tensor": [
+                    30592,
+                    1024
+                ]
+            }
+        }
+    },
+    "optimizer": {
+        "optimizer": {
+            "state": {
+                "0": {
+                    "exp_avg": {
+                        "tensor": [
+                            3072,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            3072,
+                            1024
+                        ]
+                    }
+                },
+                "1": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024,
+                            1024
+                        ]
+                    }
+                },
+                "2": {
+                    "exp_avg": {
+                        "tensor": [
+                            4096,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            4096,
+                            1024
+                        ]
+                    }
+                },
+                "3": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024,
+                            4096
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024,
+                            4096
+                        ]
+                    }
+                },
+                "4": {
+                    "exp_avg": {
+                        "tensor": [
+                            3072,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            3072,
+                            1024
+                        ]
+                    }
+                },
+                "5": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024,
+                            1024
+                        ]
+                    }
+                },
+                "6": {
+                    "exp_avg": {
+                        "tensor": [
+                            4096,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            4096,
+                            1024
+                        ]
+                    }
+                },
+                "7": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024,
+                            4096
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024,
+                            4096
+                        ]
+                    }
+                },
+                "8": {
+                    "exp_avg": {
+                        "tensor": [
+                            3072,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            3072,
+                            1024
+                        ]
+                    }
+                },
+                "9": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024,
+                            1024
+                        ]
+                    }
+                },
+                "10": {
+                    "exp_avg": {
+                        "tensor": [
+                            4096,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            4096,
+                            1024
+                        ]
+                    }
+                },
+                "11": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024,
+                            4096
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024,
+                            4096
+                        ]
+                    }
+                },
+                "12": {
+                    "exp_avg": {
+                        "tensor": [
+                            3072,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            3072,
+                            1024
+                        ]
+                    }
+                },
+                "13": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024,
+                            1024
+                        ]
+                    }
+                },
+                "14": {
+                    "exp_avg": {
+                        "tensor": [
+                            4096,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            4096,
+                            1024
+                        ]
+                    }
+                },
+                "15": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024,
+                            4096
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024,
+                            4096
+                        ]
+                    }
+                },
+                "16": {
+                    "exp_avg": {
+                        "tensor": [
+                            3072,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            3072,
+                            1024
+                        ]
+                    }
+                },
+                "17": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024,
+                            1024
+                        ]
+                    }
+                },
+                "18": {
+                    "exp_avg": {
+                        "tensor": [
+                            4096,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            4096,
+                            1024
+                        ]
+                    }
+                },
+                "19": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024,
+                            4096
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024,
+                            4096
+                        ]
+                    }
+                },
+                "20": {
+                    "exp_avg": {
+                        "tensor": [
+                            3072,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            3072,
+                            1024
+                        ]
+                    }
+                },
+                "21": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024,
+                            1024
+                        ]
+                    }
+                },
+                "22": {
+                    "exp_avg": {
+                        "tensor": [
+                            4096,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            4096,
+                            1024
+                        ]
+                    }
+                },
+                "23": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024,
+                            4096
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024,
+                            4096
+                        ]
+                    }
+                },
+                "24": {
+                    "exp_avg": {
+                        "tensor": [
+                            3072,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            3072,
+                            1024
+                        ]
+                    }
+                },
+                "25": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024,
+                            1024
+                        ]
+                    }
+                },
+                "26": {
+                    "exp_avg": {
+                        "tensor": [
+                            4096,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            4096,
+                            1024
+                        ]
+                    }
+                },
+                "27": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024,
+                            4096
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024,
+                            4096
+                        ]
+                    }
+                },
+                "28": {
+                    "exp_avg": {
+                        "tensor": [
+                            3072,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            3072,
+                            1024
+                        ]
+                    }
+                },
+                "29": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024,
+                            1024
+                        ]
+                    }
+                },
+                "30": {
+                    "exp_avg": {
+                        "tensor": [
+                            4096,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            4096,
+                            1024
+                        ]
+                    }
+                },
+                "31": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024,
+                            4096
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024,
+                            4096
+                        ]
+                    }
+                },
+                "32": {
+                    "exp_avg": {
+                        "tensor": [
+                            3072,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            3072,
+                            1024
+                        ]
+                    }
+                },
+                "33": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024,
+                            1024
+                        ]
+                    }
+                },
+                "34": {
+                    "exp_avg": {
+                        "tensor": [
+                            4096,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            4096,
+                            1024
+                        ]
+                    }
+                },
+                "35": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024,
+                            4096
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024,
+                            4096
+                        ]
+                    }
+                },
+                "36": {
+                    "exp_avg": {
+                        "tensor": [
+                            3072,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            3072,
+                            1024
+                        ]
+                    }
+                },
+                "37": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024,
+                            1024
+                        ]
+                    }
+                },
+                "38": {
+                    "exp_avg": {
+                        "tensor": [
+                            4096,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            4096,
+                            1024
+                        ]
+                    }
+                },
+                "39": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024,
+                            4096
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024,
+                            4096
+                        ]
+                    }
+                },
+                "40": {
+                    "exp_avg": {
+                        "tensor": [
+                            3072,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            3072,
+                            1024
+                        ]
+                    }
+                },
+                "41": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024,
+                            1024
+                        ]
+                    }
+                },
+                "42": {
+                    "exp_avg": {
+                        "tensor": [
+                            4096,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            4096,
+                            1024
+                        ]
+                    }
+                },
+                "43": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024,
+                            4096
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024,
+                            4096
+                        ]
+                    }
+                },
+                "44": {
+                    "exp_avg": {
+                        "tensor": [
+                            3072,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            3072,
+                            1024
+                        ]
+                    }
+                },
+                "45": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024,
+                            1024
+                        ]
+                    }
+                },
+                "46": {
+                    "exp_avg": {
+                        "tensor": [
+                            4096,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            4096,
+                            1024
+                        ]
+                    }
+                },
+                "47": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024,
+                            4096
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024,
+                            4096
+                        ]
+                    }
+                },
+                "48": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024,
+                            1024
+                        ]
+                    }
+                },
+                "49": {
+                    "exp_avg": {
+                        "tensor": [
+                            30592,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            30592,
+                            1024
+                        ]
+                    }
+                },
+                "50": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024,
+                            1024
+                        ]
+                    }
+                },
+                "51": {
+                    "exp_avg": {
+                        "tensor": [
+                            2,
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            2,
+                            1024
+                        ]
+                    }
+                },
+                "52": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "53": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "54": {
+                    "exp_avg": {
+                        "tensor": [
+                            3072
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            3072
+                        ]
+                    }
+                },
+                "55": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "56": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "57": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "58": {
+                    "exp_avg": {
+                        "tensor": [
+                            4096
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            4096
+                        ]
+                    }
+                },
+                "59": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "60": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "61": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "62": {
+                    "exp_avg": {
+                        "tensor": [
+                            3072
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            3072
+                        ]
+                    }
+                },
+                "63": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "64": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "65": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "66": {
+                    "exp_avg": {
+                        "tensor": [
+                            4096
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            4096
+                        ]
+                    }
+                },
+                "67": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "68": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "69": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "70": {
+                    "exp_avg": {
+                        "tensor": [
+                            3072
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            3072
+                        ]
+                    }
+                },
+                "71": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "72": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "73": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "74": {
+                    "exp_avg": {
+                        "tensor": [
+                            4096
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            4096
+                        ]
+                    }
+                },
+                "75": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "76": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "77": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "78": {
+                    "exp_avg": {
+                        "tensor": [
+                            3072
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            3072
+                        ]
+                    }
+                },
+                "79": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "80": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "81": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "82": {
+                    "exp_avg": {
+                        "tensor": [
+                            4096
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            4096
+                        ]
+                    }
+                },
+                "83": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "84": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "85": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "86": {
+                    "exp_avg": {
+                        "tensor": [
+                            3072
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            3072
+                        ]
+                    }
+                },
+                "87": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "88": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "89": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "90": {
+                    "exp_avg": {
+                        "tensor": [
+                            4096
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            4096
+                        ]
+                    }
+                },
+                "91": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "92": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "93": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "94": {
+                    "exp_avg": {
+                        "tensor": [
+                            3072
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            3072
+                        ]
+                    }
+                },
+                "95": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "96": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "97": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "98": {
+                    "exp_avg": {
+                        "tensor": [
+                            4096
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            4096
+                        ]
+                    }
+                },
+                "99": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "100": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "101": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "102": {
+                    "exp_avg": {
+                        "tensor": [
+                            3072
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            3072
+                        ]
+                    }
+                },
+                "103": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "104": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "105": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "106": {
+                    "exp_avg": {
+                        "tensor": [
+                            4096
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            4096
+                        ]
+                    }
+                },
+                "107": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "108": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "109": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "110": {
+                    "exp_avg": {
+                        "tensor": [
+                            3072
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            3072
+                        ]
+                    }
+                },
+                "111": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "112": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "113": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "114": {
+                    "exp_avg": {
+                        "tensor": [
+                            4096
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            4096
+                        ]
+                    }
+                },
+                "115": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "116": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "117": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "118": {
+                    "exp_avg": {
+                        "tensor": [
+                            3072
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            3072
+                        ]
+                    }
+                },
+                "119": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "120": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "121": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "122": {
+                    "exp_avg": {
+                        "tensor": [
+                            4096
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            4096
+                        ]
+                    }
+                },
+                "123": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "124": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "125": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "126": {
+                    "exp_avg": {
+                        "tensor": [
+                            3072
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            3072
+                        ]
+                    }
+                },
+                "127": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "128": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "129": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "130": {
+                    "exp_avg": {
+                        "tensor": [
+                            4096
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            4096
+                        ]
+                    }
+                },
+                "131": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "132": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "133": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "134": {
+                    "exp_avg": {
+                        "tensor": [
+                            3072
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            3072
+                        ]
+                    }
+                },
+                "135": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "136": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "137": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "138": {
+                    "exp_avg": {
+                        "tensor": [
+                            4096
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            4096
+                        ]
+                    }
+                },
+                "139": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "140": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "141": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "142": {
+                    "exp_avg": {
+                        "tensor": [
+                            3072
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            3072
+                        ]
+                    }
+                },
+                "143": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "144": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "145": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "146": {
+                    "exp_avg": {
+                        "tensor": [
+                            4096
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            4096
+                        ]
+                    }
+                },
+                "147": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "148": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "149": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "150": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "151": {
+                    "exp_avg": {
+                        "tensor": [
+                            30592
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            30592
+                        ]
+                    }
+                },
+                "152": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "153": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "154": {
+                    "exp_avg": {
+                        "tensor": [
+                            1024
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            1024
+                        ]
+                    }
+                },
+                "155": {
+                    "exp_avg": {
+                        "tensor": [
+                            2
+                        ]
+                    },
+                    "exp_avg_sq": {
+                        "tensor": [
+                            2
+                        ]
+                    }
+                }
+            },
+            "param_groups": [
+                {
+                    "wd_mult": 1.0,
+                    "lr_mult": 1.0,
+                    "lr": 3.3e-05,
+                    "bias_correction": true,
+                    "betas": [
+                        0.9,
+                        0.999
+                    ],
+                    "eps": 1e-08,
+                    "weight_decay": 0.01,
+                    "step": 33,
+                    "params": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51
+                    ]
+                },
+                {
+                    "wd_mult": 0.0,
+                    "lr_mult": 1.0,
+                    "lr": 3.3e-05,
+                    "bias_correction": true,
+                    "betas": [
+                        0.9,
+                        0.999
+                    ],
+                    "eps": 1e-08,
+                    "weight_decay": 0.0,
+                    "step": 33,
+                    "params": [
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95,
+                        96,
+                        97,
+                        98,
+                        99,
+                        100,
+                        101,
+                        102,
+                        103,
+                        104,
+                        105,
+                        106,
+                        107,
+                        108,
+                        109,
+                        110,
+                        111,
+                        112,
+                        113,
+                        114,
+                        115,
+                        116,
+                        117,
+                        118,
+                        119,
+                        120,
+                        121,
+                        122,
+                        123,
+                        124,
+                        125,
+                        126,
+                        127,
+                        128,
+                        129,
+                        130,
+                        131,
+                        132,
+                        133,
+                        134,
+                        135,
+                        136,
+                        137,
+                        138,
+                        139,
+                        140,
+                        141,
+                        142,
+                        143,
+                        144,
+                        145,
+                        146,
+                        147,
+                        148,
+                        149,
+                        150,
+                        151,
+                        152,
+                        153,
+                        154,
+                        155
+                    ]
+                }
+            ]
+        },
+        "grad_scaler": {
+            "scale": {
+                "tensor": [
+                    1
+                ]
+            },
+            "growth_tracker": 30,
+            "hysteresis_tracker": -15
+        },
+        "fp32_from_fp16_params": [
+            [
+                {
+                    "tensor": [
+                        3072,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        4096,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024,
+                        4096
+                    ]
+                },
+                {
+                    "tensor": [
+                        3072,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        4096,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024,
+                        4096
+                    ]
+                },
+                {
+                    "tensor": [
+                        3072,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        4096,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024,
+                        4096
+                    ]
+                },
+                {
+                    "tensor": [
+                        3072,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        4096,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024,
+                        4096
+                    ]
+                },
+                {
+                    "tensor": [
+                        3072,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        4096,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024,
+                        4096
+                    ]
+                },
+                {
+                    "tensor": [
+                        3072,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        4096,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024,
+                        4096
+                    ]
+                },
+                {
+                    "tensor": [
+                        3072,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        4096,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024,
+                        4096
+                    ]
+                },
+                {
+                    "tensor": [
+                        3072,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        4096,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024,
+                        4096
+                    ]
+                },
+                {
+                    "tensor": [
+                        3072,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        4096,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024,
+                        4096
+                    ]
+                },
+                {
+                    "tensor": [
+                        3072,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        4096,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024,
+                        4096
+                    ]
+                },
+                {
+                    "tensor": [
+                        3072,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        4096,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024,
+                        4096
+                    ]
+                },
+                {
+                    "tensor": [
+                        3072,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        4096,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024,
+                        4096
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        30592,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024,
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        2,
+                        1024
+                    ]
+                }
+            ],
+            [
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        3072
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        4096
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        3072
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        4096
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        3072
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        4096
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        3072
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        4096
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        3072
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        4096
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        3072
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        4096
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        3072
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        4096
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        3072
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        4096
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        3072
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        4096
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        3072
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        4096
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        3072
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        4096
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        3072
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        4096
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        30592
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        1024
+                    ]
+                },
+                {
+                    "tensor": [
+                        2
+                    ]
+                }
+            ]
+        ]
+    },
+    "opt_param_scheduler": {
+        "max_lr": 0.0001,
+        "lr_warmup_steps": 3200.0,
+        "num_steps": 1056,
+        "lr_decay_style": "linear",
+        "lr_decay_steps": 320000,
+        "min_lr": 1e-05,
+        "start_wd": 0.01,
+        "end_wd": 0.01,
+        "wd_incr_style": "constant",
+        "wd_incr_steps": 1600
+    },
+    "rng_state": [
+        {
+            "random_rng_state": [
+                3,
+                [
+                    2147483648,
+                    3344346792,
+                    3607173327,
+                    28617874,
+                    2635119102,
+                    2628586055,
+                    1443418177,
+                    1947554392,
+                    2302818941,
+                    1331400781,
+                    3922191617,
+                    315289116,
+                    3016728605,
+                    807091488,
+                    1302195537,
+                    831009820,
+                    2751016800,
+                    3246798368,
+                    2941757105,
+                    1054209184,
+                    1333085538,
+                    3096892265,
+                    749600683,
+                    15639952,
+                    1476717781,
+                    2131916778,
+                    4252286736,
+                    54781656,
+                    1100728749,
+                    3129906407,
+                    2190209740,
+                    2468026931,
+                    1027027027,
+                    1841151763,
+                    4109588766,
+                    1804898345,
+                    344918012,
+                    2553912746,
+                    2393023194,
+                    3408181681,
+                    4051330999,
+                    1357406917,
+                    1967981087,
+                    3735321783,
+                    1477675748,
+                    2385778188,
+                    1042507882,
+                    3204120812,
+                    93490503,
+                    1195960213,
+                    441416055,
+                    782957663,
+                    1788677856,
+                    2529523681,
+                    3164537309,
+                    441036897,
+                    590105972,
+                    3579801681,
+                    3890842544,
+                    379750421,
+                    3152912696,
+                    2815536457,
+                    2822770624,
+                    1238290445,
+                    1595158771,
+                    3596848914,
+                    2320563210,
+                    1298137792,
+                    3142006615,
+                    1881693347,
+                    3475349298,
+                    1946771536,
+                    717067948,
+                    2848083078,
+                    3062225949,
+                    978151742,
+                    3155958944,
+                    699861955,
+                    2213902182,
+                    3858988743,
+                    3116969049,
+                    1078075257,
+                    1242693214,
+                    1267928181,
+                    860843639,
+                    986740766,
+                    799463587,
+                    1957903322,
+                    407320712,
+                    2926536213,
+                    3449580266,
+                    3021826522,
+                    3607951992,
+                    866949710,
+                    3961990615,
+                    3198612388,
+                    792825773,
+                    611400578,
+                    2415179192,
+                    1992319491,
+                    1599787961,
+                    650467324,
+                    2311086199,
+                    4079054948,
+                    547530715,
+                    1855622509,
+                    3048211551,
+                    3712967168,
+                    3674054396,
+                    1868331916,
+                    838659030,
+                    1970608814,
+                    938562934,
+                    3596689470,
+                    2296984141,
+                    880506032,
+                    3735337346,
+                    615183072,
+                    2203877406,
+                    1114347908,
+                    2760724553,
+                    1368957829,
+                    3615569794,
+                    2166689646,
+                    442899272,
+                    1850902355,
+                    3622042926,
+                    4087789634,
+                    4175824142,
+                    3707660371,
+                    543753646,
+                    3642512031,
+                    1912470210,
+                    2750319028,
+                    2281682534,
+                    608051228,
+                    2492880222,
+                    811605027,
+                    896377019,
+                    3388113472,
+                    1028029394,
+                    4080895902,
+                    2888667416,
+                    3247587819,
+                    2150579478,
+                    186417025,
+                    2361047236,
+                    3966288838,
+                    2802508242,
+                    2549260428,
+                    3899112855,
+                    2527853258,
+                    22569543,
+                    763504849,
+                    99467405,
+                    675088973,
+                    193743449,
+                    3497550526,
+                    2625501766,
+                    118591993,
+                    3180985301,
+                    3434154871,
+                    359746300,
+                    3661721305,
+                    2901420933,
+                    4114660484,
+                    2277460905,
+                    3653523597,
+                    1796158041,
+                    3068836265,
+                    1442316258,
+                    385318734,
+                    1856896892,
+                    4143559243,
+                    3661448164,
+                    563206589,
+                    2292959693,
+                    1181052368,
+                    3111271559,
+                    3358220333,
+                    1358433753,
+                    527149307,
+                    811434118,
+                    1062123128,
+                    1487685521,
+                    2676731969,
+                    2211704409,
+                    1719684383,
+                    1761774257,
+                    3976250656,
+                    2620176497,
+                    246029919,
+                    2191248604,
+                    1483905939,
+                    3375662067,
+                    123713125,
+                    3535314262,
+                    4161631284,
+                    1968767615,
+                    2168316636,
+                    1105559525,
+                    1640122964,
+                    209311969,
+                    265954714,
+                    3191249608,
+                    932278820,
+                    1151604075,
+                    2420931135,
+                    2274586310,
+                    2518702802,
+                    3429567813,
+                    52015237,
+                    1425271663,
+                    2367957286,
+                    622583752,
+                    86191725,
+                    2879053348,
+                    3035478179,
+                    867267974,
+                    3015602744,
+                    2351381624,
+                    124173508,
+                    1734707713,
+                    3365589099,
+                    1794701878,
+                    2699465052,
+                    3818896118,
+                    2958145994,
+                    2850515546,
+                    2410561421,
+                    1579012285,
+                    169999799,
+                    2259853827,
+                    4057364536,
+                    478370796,
+                    2905507860,
+                    3070925211,
+                    2970552771,
+                    4037157751,
+                    208584307,
+                    3938757814,
+                    3712751380,
+                    3624356467,
+                    3078763047,
+                    530319538,
+                    3341865348,
+                    2960459406,
+                    3809640102,
+                    6380105,
+                    2751637133,
+                    2621759793,
+                    758791344,
+                    2587852402,
+                    1947457511,
+                    1517567956,
+                    907758131,
+                    681677324,
+                    1616577434,
+                    723413775,
+                    2427568663,
+                    3569294615,
+                    3905388993,
+                    2106353835,
+                    716149470,
+                    2419671329,
+                    672746516,
+                    2876498597,
+                    171075692,
+                    3408965570,
+                    3183836926,
+                    394783831,
+                    1451287406,
+                    1574855927,
+                    826576653,
+                    3322099741,
+                    665139080,
+                    3910886104,
+                    1624460453,
+                    2094905141,
+                    1513638883,
+                    37484019,
+                    554342247,
+                    2338494847,
+                    1026669886,
+                    161669998,
+                    2740256526,
+                    206670303,
+                    3593964986,
+                    1186425533,
+                    3224682582,
+                    3012369748,
+                    3184436420,
+                    2246669391,
+                    2428605721,
+                    1032692195,
+                    2803430933,
+                    3454864434,
+                    423920079,
+                    1390022673,
+                    425166742,
+                    1668841856,
+                    2308812770,
+                    3244379200,
+                    4187059584,
+                    2376593178,
+                    636295211,
+                    2001878744,
+                    2527391679,
+                    3355085748,
+                    4282958240,
+                    4074822066,
+                    1841281725,
+                    1001259340,
+                    2568289749,
+                    451302450,
+                    570986147,
+                    2471586900,
+                    931185259,
+                    2775758267,
+                    3326502908,
+                    1401332144,
+                    177607361,
+                    51634752,
+                    4173830301,
+                    2830994715,
+                    1245788122,
+                    3803902757,
+                    3547036674,
+                    3076145675,
+                    1738841948,
+                    1561640810,
+                    274642562,
+                    2281079280,
+                    836231347,
+                    3666248702,
+                    3971340930,
+                    3737090373,
+                    1175671404,
+                    32987975,
+                    3833912155,
+                    3168748694,
+                    4282297328,
+                    4236845305,
+                    955798327,
+                    2069040465,
+                    2279004406,
+                    2277329438,
+                    1596428962,
+                    2526630265,
+                    1747774751,
+                    3406642913,
+                    57465807,
+                    830710569,
+                    2461103379,
+                    3923765387,
+                    3486016987,
+                    1119555171,
+                    1856117242,
+                    450654510,
+                    410433175,
+                    3184426421,
+                    3163256073,
+                    707086666,
+                    3825911367,
+                    1453859996,
+                    1815104876,
+                    1078043055,
+                    1262662091,
+                    3144475105,
+                    3281734080,
+                    2033957642,
+                    1620226605,
+                    1845117597,
+                    3813337356,
+                    2028680561,
+                    1001694195,
+                    2343329700,
+                    1167224958,
+                    2900790845,
+                    4190601232,
+                    4125912594,
+                    2424069231,
+                    2012685282,
+                    4271938580,
+                    3268781583,
+                    4065659938,
+                    2389812735,
+                    1470962602,
+                    2343144639,
+                    3070381012,
+                    1422860897,
+                    3273900866,
+                    3293553298,
+                    3712542038,
+                    4278834217,
+                    1209520567,
+                    1509792154,
+                    4036755752,
+                    3385237675,
+                    1949114500,
+                    2547857320,
+                    3442147581,
+                    183347442,
+                    633911628,
+                    3918166637,
+                    1960369994,
+                    3642036079,
+                    1239744318,
+                    344618461,
+                    3847290436,
+                    2241293298,
+                    374658956,
+                    1418518869,
+                    2651380088,
+                    1269370112,
+                    3291700485,
+                    4113213904,
+                    1998814807,
+                    670259897,
+                    1813033818,
+                    1618022150,
+                    2290959775,
+                    2524923678,
+                    178940231,
+                    4024861938,
+                    1976142835,
+                    3363350053,
+                    3982685146,
+                    1271934777,
+                    4060807923,
+                    3664744940,
+                    2170434459,
+                    916989879,
+                    4180896595,
+                    3583565176,
+                    3958009283,
+                    3926986279,
+                    3168096044,
+                    3886339909,
+                    2034528261,
+                    864147367,
+                    1070127319,
+                    4230328685,
+                    4145539256,
+                    810932992,
+                    1177870866,
+                    366961967,
+                    3906835974,
+                    3735642150,
+                    2326969192,
+                    1640862971,
+                    775071239,
+                    1038358172,
+                    1175089374,
+                    3280364592,
+                    3815538227,
+                    1699336972,
+                    1132139347,
+                    153638617,
+                    2765290077,
+                    2136279080,
+                    4209014655,
+                    2359789226,
+                    3475149592,
+                    1333816419,
+                    1790293447,
+                    2824430356,
+                    1413888811,
+                    57862607,
+                    1405427246,
+                    1613736193,
+                    398613261,
+                    1150108786,
+                    973867361,
+                    1351860175,
+                    2872808248,
+                    1886838712,
+                    2438546627,
+                    912081860,
+                    2523841778,
+                    9698192,
+                    2838240104,
+                    3722032992,
+                    3789212975,
+                    1674567099,
+                    1472691910,
+                    1699209464,
+                    153895860,
+                    1489236659,
+                    2827829211,
+                    939109152,
+                    3501270869,
+                    1596940031,
+                    1783773109,
+                    949786876,
+                    1921694043,
+                    3675705199,
+                    2071845936,
+                    421513718,
+                    3121525963,
+                    834148461,
+                    671436822,
+                    2822611639,
+                    3536797507,
+                    1913810144,
+                    916010486,
+                    2275755021,
+                    726377186,
+                    249238193,
+                    978667295,
+                    550074726,
+                    2834865792,
+                    1090075359,
+                    574069287,
+                    2870595587,
+                    4047976975,
+                    2258147592,
+                    1553462967,
+                    3416925503,
+                    4229074325,
+                    1506415873,
+                    4285657457,
+                    33482488,
+                    2276739518,
+                    2550597599,
+                    2356696620,
+                    1011117543,
+                    3197696373,
+                    251378326,
+                    4288961811,
+                    904934105,
+                    2351967545,
+                    794534602,
+                    1533768622,
+                    1191345616,
+                    100321591,
+                    882316674,
+                    1576996442,
+                    544895863,
+                    3117568730,
+                    1340180205,
+                    2678279560,
+                    2853500272,
+                    1421498514,
+                    2663799795,
+                    3048648371,
+                    1277982680,
+                    1205352855,
+                    4168527134,
+                    55593382,
+                    155858208,
+                    2837465244,
+                    150673201,
+                    568804348,
+                    38226912,
+                    3344086295,
+                    1943609128,
+                    2356377343,
+                    1565411308,
+                    2346965810,
+                    2535124273,
+                    3412711346,
+                    3651540974,
+                    3543010839,
+                    2563149607,
+                    3531941253,
+                    1468788742,
+                    4197751404,
+                    2230246206,
+                    526884474,
+                    232628112,
+                    177638709,
+                    3996047622,
+                    3242576895,
+                    1609823258,
+                    1761789950,
+                    4052675061,
+                    1596134271,
+                    3778155378,
+                    1674939988,
+                    576679580,
+                    3363707814,
+                    105309202,
+                    2177927658,
+                    3766521507,
+                    4060192225,
+                    4254466360,
+                    2399762132,
+                    3540887433,
+                    282002738,
+                    3066237587,
+                    63053085,
+                    1931342465,
+                    2920567329,
+                    1925651891,
+                    3280140807,
+                    2620250096,
+                    468401034,
+                    1576182537,
+                    1104818296,
+                    2210312753,
+                    3432572149,
+                    3202164724,
+                    1069821313,
+                    3108861995,
+                    2428322747,
+                    3174390850,
+                    1166668759,
+                    349619920,
+                    4039930085,
+                    2518192759,
+                    1410542089,
+                    1062372625,
+                    1245962299,
+                    978672040,
+                    2886273415,
+                    303003979,
+                    3100498684,
+                    1388840676,
+                    1940338936,
+                    1952832952,
+                    128810155,
+                    2832032390,
+                    2332764738,
+                    624
+                ],
+                null
+            ],
+            "np_rng_state": [
+                "MT19937",
+                "NotPrimitiveNorTensor",
+                624,
+                0,
+                0.0
+            ],
+            "torch_rng_state": {
+                "tensor": [
+                    5056
+                ]
+            },
+            "cuda_rng_state": {
+                "tensor": [
+                    816
+                ]
+            },
+            "rng_tracker_states": {
+                "model-parallel-rng": {
+                    "tensor": [
+                        816
+                    ]
+                }
+            }
+        }
+    ]
+}

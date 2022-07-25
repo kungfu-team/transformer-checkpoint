@@ -16,7 +16,7 @@
                 "position_embeddings": {
                     "weight": {
                         "tensor": [
-                            1024,
+                            512,
                             1024
                         ]
                     }
@@ -822,13 +822,13 @@
                 "1": {
                     "exp_avg": {
                         "tensor": [
-                            1024,
+                            512,
                             1024
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1024,
+                            512,
                             1024
                         ]
                     }
@@ -2858,7 +2858,7 @@
                     1
                 ]
             },
-            "growth_tracker": 21,
+            "growth_tracker": 30,
             "hysteresis_tracker": -15
         },
         "fp32_from_fp16_params": [
@@ -2871,7 +2871,7 @@
                 },
                 {
                     "tensor": [
-                        1024,
+                        512,
                         1024
                     ]
                 },

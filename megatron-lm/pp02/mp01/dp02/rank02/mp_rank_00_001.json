@@ -3023,7 +3023,7 @@
                     1
                 ]
             },
-            "growth_tracker": 21,
+            "growth_tracker": 30,
             "hysteresis_tracker": -15
         },
         "fp32_from_fp16_params": [

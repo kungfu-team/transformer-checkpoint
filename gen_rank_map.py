@@ -5,16 +5,19 @@ import re
 
 def main():
     framework = 'megatron-lm'
+    seq_length = 512
     pp_size = 2
     mp_size = 2
-    dp_size = 1
+    dp_size = 2
     total_size = pp_size * mp_size * dp_size
-    direc = f'{framework}/pp{pp_size:02d}/mp{mp_size:02d}/dp{dp_size:02d}'
+    direc = f'{framework}/seq_{seq_length}/pp{pp_size:02d}/mp{mp_size:02d}/dp{dp_size:02d}'
 
     mapping = dict()
 
     for rank in range(total_size):
-        rank_dir = f'{direc}/rank{rank:02d}'
+        rank_dir = os.path.join(direc, f'rank{rank:02d}')
+        if not os.path.exists(rank_dir):
+            continue
         for entry in os.scandir(rank_dir):
             if pp_size > 1:
                 pattern = r'mp_rank_(\d+)_(\d+)'

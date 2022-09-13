@@ -1,0 +1,678 @@
+{
+    "weight_decay": {
+        "tied_modules.embed.word_embeddings": {
+            "weight": [
+                25216,
+                4096
+            ]
+        },
+        "tied_modules.embed.position_embeddings": {
+            "weight": [
+                1024,
+                4096
+            ]
+        },
+        "2.attention.query_key_value": {
+            "weight": [
+                6144,
+                4096
+            ]
+        },
+        "2.attention.dense": {
+            "weight": [
+                4096,
+                2048
+            ]
+        },
+        "2.mlp.dense_h_to_4h": {
+            "weight": [
+                8192,
+                4096
+            ]
+        },
+        "2.mlp.dense_4h_to_h": {
+            "weight": [
+                4096,
+                8192
+            ]
+        },
+        "3.attention.query_key_value": {
+            "weight": [
+                6144,
+                4096
+            ]
+        },
+        "3.attention.dense": {
+            "weight": [
+                4096,
+                2048
+            ]
+        },
+        "3.mlp.dense_h_to_4h": {
+            "weight": [
+                8192,
+                4096
+            ]
+        },
+        "3.mlp.dense_4h_to_h": {
+            "weight": [
+                4096,
+                8192
+            ]
+        },
+        "4.attention.query_key_value": {
+            "weight": [
+                6144,
+                4096
+            ]
+        },
+        "4.attention.dense": {
+            "weight": [
+                4096,
+                2048
+            ]
+        },
+        "4.mlp.dense_h_to_4h": {
+            "weight": [
+                8192,
+                4096
+            ]
+        },
+        "4.mlp.dense_4h_to_h": {
+            "weight": [
+                4096,
+                8192
+            ]
+        },
+        "5.attention.query_key_value": {
+            "weight": [
+                6144,
+                4096
+            ]
+        },
+        "5.attention.dense": {
+            "weight": [
+                4096,
+                2048
+            ]
+        },
+        "5.mlp.dense_h_to_4h": {
+            "weight": [
+                8192,
+                4096
+            ]
+        },
+        "5.mlp.dense_4h_to_h": {
+            "weight": [
+                4096,
+                8192
+            ]
+        },
+        "6.attention.query_key_value": {
+            "weight": [
+                6144,
+                4096
+            ]
+        },
+        "6.attention.dense": {
+            "weight": [
+                4096,
+                2048
+            ]
+        },
+        "6.mlp.dense_h_to_4h": {
+            "weight": [
+                8192,
+                4096
+            ]
+        },
+        "6.mlp.dense_4h_to_h": {
+            "weight": [
+                4096,
+                8192
+            ]
+        },
+        "7.attention.query_key_value": {
+            "weight": [
+                6144,
+                4096
+            ]
+        },
+        "7.attention.dense": {
+            "weight": [
+                4096,
+                2048
+            ]
+        },
+        "7.mlp.dense_h_to_4h": {
+            "weight": [
+                8192,
+                4096
+            ]
+        },
+        "7.mlp.dense_4h_to_h": {
+            "weight": [
+                4096,
+                8192
+            ]
+        },
+        "8.attention.query_key_value": {
+            "weight": [
+                6144,
+                4096
+            ]
+        },
+        "8.attention.dense": {
+            "weight": [
+                4096,
+                2048
+            ]
+        },
+        "8.mlp.dense_h_to_4h": {
+            "weight": [
+                8192,
+                4096
+            ]
+        },
+        "8.mlp.dense_4h_to_h": {
+            "weight": [
+                4096,
+                8192
+            ]
+        },
+        "9.attention.query_key_value": {
+            "weight": [
+                6144,
+                4096
+            ]
+        },
+        "9.attention.dense": {
+            "weight": [
+                4096,
+                2048
+            ]
+        },
+        "9.mlp.dense_h_to_4h": {
+            "weight": [
+                8192,
+                4096
+            ]
+        },
+        "9.mlp.dense_4h_to_h": {
+            "weight": [
+                4096,
+                8192
+            ]
+        },
+        "10.attention.query_key_value": {
+            "weight": [
+                6144,
+                4096
+            ]
+        },
+        "10.attention.dense": {
+            "weight": [
+                4096,
+                2048
+            ]
+        },
+        "10.mlp.dense_h_to_4h": {
+            "weight": [
+                8192,
+                4096
+            ]
+        },
+        "10.mlp.dense_4h_to_h": {
+            "weight": [
+                4096,
+                8192
+            ]
+        },
+        "11.attention.query_key_value": {
+            "weight": [
+                6144,
+                4096
+            ]
+        },
+        "11.attention.dense": {
+            "weight": [
+                4096,
+                2048
+            ]
+        },
+        "11.mlp.dense_h_to_4h": {
+            "weight": [
+                8192,
+                4096
+            ]
+        },
+        "11.mlp.dense_4h_to_h": {
+            "weight": [
+                4096,
+                8192
+            ]
+        },
+        "12.attention.query_key_value": {
+            "weight": [
+                6144,
+                4096
+            ]
+        },
+        "12.attention.dense": {
+            "weight": [
+                4096,
+                2048
+            ]
+        },
+        "12.mlp.dense_h_to_4h": {
+            "weight": [
+                8192,
+                4096
+            ]
+        },
+        "12.mlp.dense_4h_to_h": {
+            "weight": [
+                4096,
+                8192
+            ]
+        }
+    },
+    "no_weight_decay": {
+        "2.input_layernorm": {
+            "weight": [
+                4096
+            ],
+            "bias": [
+                4096
+            ]
+        },
+        "2.attention.query_key_value": {
+            "bias": [
+                6144
+            ]
+        },
+        "2.attention.dense": {
+            "bias": [
+                4096
+            ]
+        },
+        "2.post_attention_layernorm": {
+            "weight": [
+                4096
+            ],
+            "bias": [
+                4096
+            ]
+        },
+        "2.mlp.dense_h_to_4h": {
+            "bias": [
+                8192
+            ]
+        },
+        "2.mlp.dense_4h_to_h": {
+            "bias": [
+                4096
+            ]
+        },
+        "3.input_layernorm": {
+            "weight": [
+                4096
+            ],
+            "bias": [
+                4096
+            ]
+        },
+        "3.attention.query_key_value": {
+            "bias": [
+                6144
+            ]
+        },
+        "3.attention.dense": {
+            "bias": [
+                4096
+            ]
+        },
+        "3.post_attention_layernorm": {
+            "weight": [
+                4096
+            ],
+            "bias": [
+                4096
+            ]
+        },
+        "3.mlp.dense_h_to_4h": {
+            "bias": [
+                8192
+            ]
+        },
+        "3.mlp.dense_4h_to_h": {
+            "bias": [
+                4096
+            ]
+        },
+        "4.input_layernorm": {
+            "weight": [
+                4096
+            ],
+            "bias": [
+                4096
+            ]
+        },
+        "4.attention.query_key_value": {
+            "bias": [
+                6144
+            ]
+        },
+        "4.attention.dense": {
+            "bias": [
+                4096
+            ]
+        },
+        "4.post_attention_layernorm": {
+            "weight": [
+                4096
+            ],
+            "bias": [
+                4096
+            ]
+        },
+        "4.mlp.dense_h_to_4h": {
+            "bias": [
+                8192
+            ]
+        },
+        "4.mlp.dense_4h_to_h": {
+            "bias": [
+                4096
+            ]
+        },
+        "5.input_layernorm": {
+            "weight": [
+                4096
+            ],
+            "bias": [
+                4096
+            ]
+        },
+        "5.attention.query_key_value": {
+            "bias": [
+                6144
+            ]
+        },
+        "5.attention.dense": {
+            "bias": [
+                4096
+            ]
+        },
+        "5.post_attention_layernorm": {
+            "weight": [
+                4096
+            ],
+            "bias": [
+                4096
+            ]
+        },
+        "5.mlp.dense_h_to_4h": {
+            "bias": [
+                8192
+            ]
+        },
+        "5.mlp.dense_4h_to_h": {
+            "bias": [
+                4096
+            ]
+        },
+        "6.input_layernorm": {
+            "weight": [
+                4096
+            ],
+            "bias": [
+                4096
+            ]
+        },
+        "6.attention.query_key_value": {
+            "bias": [
+                6144
+            ]
+        },
+        "6.attention.dense": {
+            "bias": [
+                4096
+            ]
+        },
+        "6.post_attention_layernorm": {
+            "weight": [
+                4096
+            ],
+            "bias": [
+                4096
+            ]
+        },
+        "6.mlp.dense_h_to_4h": {
+            "bias": [
+                8192
+            ]
+        },
+        "6.mlp.dense_4h_to_h": {
+            "bias": [
+                4096
+            ]
+        },
+        "7.input_layernorm": {
+            "weight": [
+                4096
+            ],
+            "bias": [
+                4096
+            ]
+        },
+        "7.attention.query_key_value": {
+            "bias": [
+                6144
+            ]
+        },
+        "7.attention.dense": {
+            "bias": [
+                4096
+            ]
+        },
+        "7.post_attention_layernorm": {
+            "weight": [
+                4096
+            ],
+            "bias": [
+                4096
+            ]
+        },
+        "7.mlp.dense_h_to_4h": {
+            "bias": [
+                8192
+            ]
+        },
+        "7.mlp.dense_4h_to_h": {
+            "bias": [
+                4096
+            ]
+        },
+        "8.input_layernorm": {
+            "weight": [
+                4096
+            ],
+            "bias": [
+                4096
+            ]
+        },
+        "8.attention.query_key_value": {
+            "bias": [
+                6144
+            ]
+        },
+        "8.attention.dense": {
+            "bias": [
+                4096
+            ]
+        },
+        "8.post_attention_layernorm": {
+            "weight": [
+                4096
+            ],
+            "bias": [
+                4096
+            ]
+        },
+        "8.mlp.dense_h_to_4h": {
+            "bias": [
+                8192
+            ]
+        },
+        "8.mlp.dense_4h_to_h": {
+            "bias": [
+                4096
+            ]
+        },
+        "9.input_layernorm": {
+            "weight": [
+                4096
+            ],
+            "bias": [
+                4096
+            ]
+        },
+        "9.attention.query_key_value": {
+            "bias": [
+                6144
+            ]
+        },
+        "9.attention.dense": {
+            "bias": [
+                4096
+            ]
+        },
+        "9.post_attention_layernorm": {
+            "weight": [
+                4096
+            ],
+            "bias": [
+                4096
+            ]
+        },
+        "9.mlp.dense_h_to_4h": {
+            "bias": [
+                8192
+            ]
+        },
+        "9.mlp.dense_4h_to_h": {
+            "bias": [
+                4096
+            ]
+        },
+        "10.input_layernorm": {
+            "weight": [
+                4096
+            ],
+            "bias": [
+                4096
+            ]
+        },
+        "10.attention.query_key_value": {
+            "bias": [
+                6144
+            ]
+        },
+        "10.attention.dense": {
+            "bias": [
+                4096
+            ]
+        },
+        "10.post_attention_layernorm": {
+            "weight": [
+                4096
+            ],
+            "bias": [
+                4096
+            ]
+        },
+        "10.mlp.dense_h_to_4h": {
+            "bias": [
+                8192
+            ]
+        },
+        "10.mlp.dense_4h_to_h": {
+            "bias": [
+                4096
+            ]
+        },
+        "11.input_layernorm": {
+            "weight": [
+                4096
+            ],
+            "bias": [
+                4096
+            ]
+        },
+        "11.attention.query_key_value": {
+            "bias": [
+                6144
+            ]
+        },
+        "11.attention.dense": {
+            "bias": [
+                4096
+            ]
+        },
+        "11.post_attention_layernorm": {
+            "weight": [
+                4096
+            ],
+            "bias": [
+                4096
+            ]
+        },
+        "11.mlp.dense_h_to_4h": {
+            "bias": [
+                8192
+            ]
+        },
+        "11.mlp.dense_4h_to_h": {
+            "bias": [
+                4096
+            ]
+        },
+        "12.input_layernorm": {
+            "weight": [
+                4096
+            ],
+            "bias": [
+                4096
+            ]
+        },
+        "12.attention.query_key_value": {
+            "bias": [
+                6144
+            ]
+        },
+        "12.attention.dense": {
+            "bias": [
+                4096
+            ]
+        },
+        "12.post_attention_layernorm": {
+            "weight": [
+                4096
+            ],
+            "bias": [
+                4096
+            ]
+        },
+        "12.mlp.dense_h_to_4h": {
+            "bias": [
+                8192
+            ]
+        },
+        "12.mlp.dense_4h_to_h": {
+            "bias": [
+                4096
+            ]
+        }
+    }
+}

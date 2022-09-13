@@ -1,0 +1,10 @@
+{
+    "word_embeddings.weight": [
+        12672,
+        5120
+    ],
+    "position_embeddings.weight": [
+        1024,
+        5120
+    ]
+}

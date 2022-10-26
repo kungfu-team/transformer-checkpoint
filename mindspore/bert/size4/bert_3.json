@@ -13,7 +13,7 @@
     },
     "bert.bert.embedding_postprocessor.full_position_embedding.embedding_table": {
         "tensor": [
-            128,
+            1024,
             1024
         ]
     },

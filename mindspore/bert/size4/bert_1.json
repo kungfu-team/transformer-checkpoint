@@ -1,0 +1,2142 @@
+{
+    "bert.bert.word_embedding.embedding_table": {
+        "tensor": [
+            30522,
+            1024
+        ]
+    },
+    "bert.bert.embedding_postprocessor.token_type_embedding.embedding_table": {
+        "tensor": [
+            2,
+            1024
+        ]
+    },
+    "bert.bert.embedding_postprocessor.full_position_embedding.embedding_table": {
+        "tensor": [
+            128,
+            1024
+        ]
+    },
+    "bert.bert.embedding_postprocessor.layernorm.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.embedding_postprocessor.layernorm.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.0.layernorm1.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.0.layernorm1.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.0.layernorm2.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.0.layernorm2.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.0.attention.projection.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.0.attention.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.0.attention.dense1.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.0.attention.dense1.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.0.attention.dense2.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.0.attention.dense2.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.0.attention.dense3.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.0.attention.dense3.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.0.output.mapping.weight": {
+        "tensor": [
+            1024,
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.0.output.mapping.bias": {
+        "tensor": [
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.0.output.projection.weight": {
+        "tensor": [
+            4096,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.0.output.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.1.layernorm1.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.1.layernorm1.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.1.layernorm2.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.1.layernorm2.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.1.attention.projection.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.1.attention.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.1.attention.dense1.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.1.attention.dense1.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.1.attention.dense2.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.1.attention.dense2.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.1.attention.dense3.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.1.attention.dense3.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.1.output.mapping.weight": {
+        "tensor": [
+            1024,
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.1.output.mapping.bias": {
+        "tensor": [
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.1.output.projection.weight": {
+        "tensor": [
+            4096,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.1.output.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.2.layernorm1.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.2.layernorm1.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.2.layernorm2.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.2.layernorm2.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.2.attention.projection.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.2.attention.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.2.attention.dense1.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.2.attention.dense1.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.2.attention.dense2.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.2.attention.dense2.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.2.attention.dense3.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.2.attention.dense3.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.2.output.mapping.weight": {
+        "tensor": [
+            1024,
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.2.output.mapping.bias": {
+        "tensor": [
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.2.output.projection.weight": {
+        "tensor": [
+            4096,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.2.output.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.3.layernorm1.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.3.layernorm1.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.3.layernorm2.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.3.layernorm2.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.3.attention.projection.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.3.attention.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.3.attention.dense1.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.3.attention.dense1.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.3.attention.dense2.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.3.attention.dense2.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.3.attention.dense3.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.3.attention.dense3.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.3.output.mapping.weight": {
+        "tensor": [
+            1024,
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.3.output.mapping.bias": {
+        "tensor": [
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.3.output.projection.weight": {
+        "tensor": [
+            4096,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.3.output.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.4.layernorm1.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.4.layernorm1.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.4.layernorm2.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.4.layernorm2.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.4.attention.projection.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.4.attention.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.4.attention.dense1.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.4.attention.dense1.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.4.attention.dense2.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.4.attention.dense2.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.4.attention.dense3.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.4.attention.dense3.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.4.output.mapping.weight": {
+        "tensor": [
+            1024,
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.4.output.mapping.bias": {
+        "tensor": [
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.4.output.projection.weight": {
+        "tensor": [
+            4096,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.4.output.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.5.layernorm1.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.5.layernorm1.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.5.layernorm2.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.5.layernorm2.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.5.attention.projection.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.5.attention.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.5.attention.dense1.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.5.attention.dense1.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.5.attention.dense2.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.5.attention.dense2.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.5.attention.dense3.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.5.attention.dense3.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.5.output.mapping.weight": {
+        "tensor": [
+            1024,
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.5.output.mapping.bias": {
+        "tensor": [
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.5.output.projection.weight": {
+        "tensor": [
+            4096,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.5.output.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.6.layernorm1.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.6.layernorm1.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.6.layernorm2.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.6.layernorm2.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.6.attention.projection.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.6.attention.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.6.attention.dense1.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.6.attention.dense1.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.6.attention.dense2.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.6.attention.dense2.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.6.attention.dense3.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.6.attention.dense3.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.6.output.mapping.weight": {
+        "tensor": [
+            1024,
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.6.output.mapping.bias": {
+        "tensor": [
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.6.output.projection.weight": {
+        "tensor": [
+            4096,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.6.output.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.7.layernorm1.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.7.layernorm1.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.7.layernorm2.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.7.layernorm2.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.7.attention.projection.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.7.attention.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.7.attention.dense1.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.7.attention.dense1.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.7.attention.dense2.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.7.attention.dense2.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.7.attention.dense3.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.7.attention.dense3.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.7.output.mapping.weight": {
+        "tensor": [
+            1024,
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.7.output.mapping.bias": {
+        "tensor": [
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.7.output.projection.weight": {
+        "tensor": [
+            4096,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.7.output.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.8.layernorm1.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.8.layernorm1.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.8.layernorm2.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.8.layernorm2.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.8.attention.projection.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.8.attention.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.8.attention.dense1.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.8.attention.dense1.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.8.attention.dense2.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.8.attention.dense2.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.8.attention.dense3.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.8.attention.dense3.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.8.output.mapping.weight": {
+        "tensor": [
+            1024,
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.8.output.mapping.bias": {
+        "tensor": [
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.8.output.projection.weight": {
+        "tensor": [
+            4096,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.8.output.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.9.layernorm1.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.9.layernorm1.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.9.layernorm2.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.9.layernorm2.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.9.attention.projection.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.9.attention.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.9.attention.dense1.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.9.attention.dense1.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.9.attention.dense2.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.9.attention.dense2.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.9.attention.dense3.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.9.attention.dense3.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.9.output.mapping.weight": {
+        "tensor": [
+            1024,
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.9.output.mapping.bias": {
+        "tensor": [
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.9.output.projection.weight": {
+        "tensor": [
+            4096,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.9.output.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.10.layernorm1.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.10.layernorm1.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.10.layernorm2.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.10.layernorm2.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.10.attention.projection.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.10.attention.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.10.attention.dense1.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.10.attention.dense1.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.10.attention.dense2.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.10.attention.dense2.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.10.attention.dense3.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.10.attention.dense3.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.10.output.mapping.weight": {
+        "tensor": [
+            1024,
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.10.output.mapping.bias": {
+        "tensor": [
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.10.output.projection.weight": {
+        "tensor": [
+            4096,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.10.output.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.11.layernorm1.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.11.layernorm1.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.11.layernorm2.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.11.layernorm2.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.11.attention.projection.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.11.attention.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.11.attention.dense1.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.11.attention.dense1.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.11.attention.dense2.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.11.attention.dense2.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.11.attention.dense3.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.11.attention.dense3.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.11.output.mapping.weight": {
+        "tensor": [
+            1024,
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.11.output.mapping.bias": {
+        "tensor": [
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.11.output.projection.weight": {
+        "tensor": [
+            4096,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.11.output.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.12.layernorm1.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.12.layernorm1.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.12.layernorm2.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.12.layernorm2.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.12.attention.projection.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.12.attention.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.12.attention.dense1.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.12.attention.dense1.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.12.attention.dense2.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.12.attention.dense2.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.12.attention.dense3.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.12.attention.dense3.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.12.output.mapping.weight": {
+        "tensor": [
+            1024,
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.12.output.mapping.bias": {
+        "tensor": [
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.12.output.projection.weight": {
+        "tensor": [
+            4096,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.12.output.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.13.layernorm1.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.13.layernorm1.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.13.layernorm2.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.13.layernorm2.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.13.attention.projection.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.13.attention.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.13.attention.dense1.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.13.attention.dense1.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.13.attention.dense2.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.13.attention.dense2.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.13.attention.dense3.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.13.attention.dense3.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.13.output.mapping.weight": {
+        "tensor": [
+            1024,
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.13.output.mapping.bias": {
+        "tensor": [
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.13.output.projection.weight": {
+        "tensor": [
+            4096,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.13.output.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.14.layernorm1.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.14.layernorm1.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.14.layernorm2.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.14.layernorm2.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.14.attention.projection.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.14.attention.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.14.attention.dense1.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.14.attention.dense1.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.14.attention.dense2.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.14.attention.dense2.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.14.attention.dense3.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.14.attention.dense3.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.14.output.mapping.weight": {
+        "tensor": [
+            1024,
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.14.output.mapping.bias": {
+        "tensor": [
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.14.output.projection.weight": {
+        "tensor": [
+            4096,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.14.output.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.15.layernorm1.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.15.layernorm1.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.15.layernorm2.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.15.layernorm2.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.15.attention.projection.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.15.attention.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.15.attention.dense1.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.15.attention.dense1.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.15.attention.dense2.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.15.attention.dense2.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.15.attention.dense3.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.15.attention.dense3.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.15.output.mapping.weight": {
+        "tensor": [
+            1024,
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.15.output.mapping.bias": {
+        "tensor": [
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.15.output.projection.weight": {
+        "tensor": [
+            4096,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.15.output.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.16.layernorm1.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.16.layernorm1.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.16.layernorm2.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.16.layernorm2.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.16.attention.projection.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.16.attention.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.16.attention.dense1.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.16.attention.dense1.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.16.attention.dense2.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.16.attention.dense2.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.16.attention.dense3.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.16.attention.dense3.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.16.output.mapping.weight": {
+        "tensor": [
+            1024,
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.16.output.mapping.bias": {
+        "tensor": [
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.16.output.projection.weight": {
+        "tensor": [
+            4096,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.16.output.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.17.layernorm1.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.17.layernorm1.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.17.layernorm2.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.17.layernorm2.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.17.attention.projection.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.17.attention.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.17.attention.dense1.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.17.attention.dense1.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.17.attention.dense2.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.17.attention.dense2.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.17.attention.dense3.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.17.attention.dense3.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.17.output.mapping.weight": {
+        "tensor": [
+            1024,
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.17.output.mapping.bias": {
+        "tensor": [
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.17.output.projection.weight": {
+        "tensor": [
+            4096,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.17.output.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.18.layernorm1.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.18.layernorm1.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.18.layernorm2.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.18.layernorm2.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.18.attention.projection.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.18.attention.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.18.attention.dense1.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.18.attention.dense1.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.18.attention.dense2.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.18.attention.dense2.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.18.attention.dense3.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.18.attention.dense3.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.18.output.mapping.weight": {
+        "tensor": [
+            1024,
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.18.output.mapping.bias": {
+        "tensor": [
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.18.output.projection.weight": {
+        "tensor": [
+            4096,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.18.output.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.19.layernorm1.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.19.layernorm1.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.19.layernorm2.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.19.layernorm2.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.19.attention.projection.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.19.attention.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.19.attention.dense1.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.19.attention.dense1.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.19.attention.dense2.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.19.attention.dense2.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.19.attention.dense3.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.19.attention.dense3.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.19.output.mapping.weight": {
+        "tensor": [
+            1024,
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.19.output.mapping.bias": {
+        "tensor": [
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.19.output.projection.weight": {
+        "tensor": [
+            4096,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.19.output.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.20.layernorm1.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.20.layernorm1.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.20.layernorm2.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.20.layernorm2.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.20.attention.projection.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.20.attention.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.20.attention.dense1.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.20.attention.dense1.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.20.attention.dense2.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.20.attention.dense2.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.20.attention.dense3.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.20.attention.dense3.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.20.output.mapping.weight": {
+        "tensor": [
+            1024,
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.20.output.mapping.bias": {
+        "tensor": [
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.20.output.projection.weight": {
+        "tensor": [
+            4096,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.20.output.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.21.layernorm1.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.21.layernorm1.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.21.layernorm2.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.21.layernorm2.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.21.attention.projection.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.21.attention.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.21.attention.dense1.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.21.attention.dense1.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.21.attention.dense2.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.21.attention.dense2.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.21.attention.dense3.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.21.attention.dense3.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.21.output.mapping.weight": {
+        "tensor": [
+            1024,
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.21.output.mapping.bias": {
+        "tensor": [
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.21.output.projection.weight": {
+        "tensor": [
+            4096,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.21.output.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.22.layernorm1.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.22.layernorm1.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.22.layernorm2.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.22.layernorm2.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.22.attention.projection.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.22.attention.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.22.attention.dense1.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.22.attention.dense1.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.22.attention.dense2.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.22.attention.dense2.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.22.attention.dense3.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.22.attention.dense3.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.22.output.mapping.weight": {
+        "tensor": [
+            1024,
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.22.output.mapping.bias": {
+        "tensor": [
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.22.output.projection.weight": {
+        "tensor": [
+            4096,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.22.output.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.23.layernorm1.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.23.layernorm1.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.23.layernorm2.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.23.layernorm2.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.23.attention.projection.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.23.attention.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.23.attention.dense1.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.23.attention.dense1.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.23.attention.dense2.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.23.attention.dense2.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.23.attention.dense3.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.23.attention.dense3.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.23.output.mapping.weight": {
+        "tensor": [
+            1024,
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.23.output.mapping.bias": {
+        "tensor": [
+            4096
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.23.output.projection.weight": {
+        "tensor": [
+            4096,
+            1024
+        ]
+    },
+    "bert.bert.bert_encoder.encoder.blocks.23.output.projection.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.bert.dense.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.bert.dense.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.mlmloss.output_bias": {
+        "tensor": [
+            30522
+        ]
+    },
+    "bert.mlmloss.dense.weight": {
+        "tensor": [
+            1024,
+            1024
+        ]
+    },
+    "bert.mlmloss.dense.bias": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.mlmloss.layernorm.gamma": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.mlmloss.layernorm.beta": {
+        "tensor": [
+            1024
+        ]
+    },
+    "bert.nsploss.dense.weight": {
+        "tensor": [
+            2,
+            1024
+        ]
+    },
+    "bert.nsploss.dense.bias": {
+        "tensor": [
+            2
+        ]
+    }
+}

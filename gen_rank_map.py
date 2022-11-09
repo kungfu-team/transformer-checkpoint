@@ -5,10 +5,10 @@ import re
 
 def main():
     framework = 'megatron-lm'
-    precision = 'fp32'
+    precision = 'fp16'
     seq_length = 1024
     pp_size = 2
-    mp_size = 2
+    mp_size = 1
     dp_size = 2
     total_size = pp_size * mp_size * dp_size
     direc = f'{framework}/{precision}/seq_{seq_length}/pp{pp_size:02d}/mp{mp_size:02d}/dp{dp_size:02d}'

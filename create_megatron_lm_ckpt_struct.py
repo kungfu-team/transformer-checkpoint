@@ -37,22 +37,18 @@ def create_ckpt_dict(ckpt):
 
 def megatron_lm():
     base_dir = "/data/marcel/training"
-    size = 8
-    pp = 4
-    mp = 2
+    size = 4
+    pp = 2
+    mp = 1
     dp = size // (pp * mp)
     step = 50
     seq_length = 1024
     precision = "fp16"
     out_dir = os.path.join(
         os.path.expanduser('~'),
-        "Elasticity/Repo/transformer-checkpoint/megatron-lm")
-    #  out_dir = os.path.join(
-    #      out_dir, f"seq_{seq_length}/pp{pp:02d}/mp{mp:02d}/dp{dp:02d}")
-    out_dir = os.path.join(
-        out_dir,
-        f"{precision}/seq_{seq_length}/ultralarge/pp{pp:02d}/mp{mp:02d}/dp{dp:02d}"
-    )
+        "Elasticity/Repo/tenplex-run/transformer-checkpoint/megatron-lm")
+    out_dir = os.path.join(out_dir, f"{precision}/seq_{seq_length}")
+    out_dir = os.path.join(out_dir, f"pp{pp:02d}/mp{mp:02d}/dp{dp:02d}")
     os.makedirs(out_dir, exist_ok=True)
 
     for rank in range(size):
@@ -71,7 +67,7 @@ def megatron_lm():
 
             ckpt_path = os.path.join(entry.path, "model_optim_rng.pt")
 
-            ckpt = torch.load(ckpt_path)
+            ckpt = torch.load(ckpt_path, map_location=torch.device("cpu"))
             ckpt_dict = create_ckpt_dict(ckpt)
             new_name = entry.name.split(".")[0] + ".json"
             out_path = os.path.join(rank_output_path, new_name)

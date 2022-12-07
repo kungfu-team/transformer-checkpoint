@@ -72,7 +72,7 @@ def main():
         with open(path, "r") as json_file:
             rank_struct = json.load(json_file)
 
-        model_keys[rank] = find_tensors(rank_struct["model"])
+        model_keys[rank] = find_tensors(rank_struct["model"], ["model"])
 
     #  import pprint
     #  pprint.pprint(model_keys)

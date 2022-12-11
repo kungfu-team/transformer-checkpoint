@@ -2,6 +2,6 @@
 
 set -e
 
-export PYTHONPATH="/home/marcel/Elasticity/Repo/Megatron-LM"
+export PYTHONPATH="/home/kungfu/marcel/Megatron-LM"
 
 python create_megatron_lm_ckpt_struct.py

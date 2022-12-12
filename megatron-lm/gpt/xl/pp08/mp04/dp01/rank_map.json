@@ -1,0 +1,130 @@
+{
+    "0": {
+        "mp_rank": 0,
+        "pp_rank": 0
+    },
+    "1": {
+        "mp_rank": 1,
+        "pp_rank": 0
+    },
+    "2": {
+        "mp_rank": 2,
+        "pp_rank": 0
+    },
+    "3": {
+        "mp_rank": 3,
+        "pp_rank": 0
+    },
+    "4": {
+        "mp_rank": 0,
+        "pp_rank": 1
+    },
+    "5": {
+        "mp_rank": 1,
+        "pp_rank": 1
+    },
+    "6": {
+        "mp_rank": 2,
+        "pp_rank": 1
+    },
+    "7": {
+        "mp_rank": 3,
+        "pp_rank": 1
+    },
+    "8": {
+        "mp_rank": 0,
+        "pp_rank": 2
+    },
+    "9": {
+        "mp_rank": 1,
+        "pp_rank": 2
+    },
+    "10": {
+        "mp_rank": 2,
+        "pp_rank": 2
+    },
+    "11": {
+        "mp_rank": 3,
+        "pp_rank": 2
+    },
+    "12": {
+        "mp_rank": 0,
+        "pp_rank": 3
+    },
+    "13": {
+        "mp_rank": 1,
+        "pp_rank": 3
+    },
+    "14": {
+        "mp_rank": 2,
+        "pp_rank": 3
+    },
+    "15": {
+        "mp_rank": 3,
+        "pp_rank": 3
+    },
+    "16": {
+        "mp_rank": 0,
+        "pp_rank": 4
+    },
+    "17": {
+        "mp_rank": 1,
+        "pp_rank": 4
+    },
+    "18": {
+        "mp_rank": 2,
+        "pp_rank": 4
+    },
+    "19": {
+        "mp_rank": 3,
+        "pp_rank": 4
+    },
+    "20": {
+        "mp_rank": 0,
+        "pp_rank": 5
+    },
+    "21": {
+        "mp_rank": 1,
+        "pp_rank": 5
+    },
+    "22": {
+        "mp_rank": 2,
+        "pp_rank": 5
+    },
+    "23": {
+        "mp_rank": 3,
+        "pp_rank": 5
+    },
+    "24": {
+        "mp_rank": 0,
+        "pp_rank": 6
+    },
+    "25": {
+        "mp_rank": 1,
+        "pp_rank": 6
+    },
+    "26": {
+        "mp_rank": 2,
+        "pp_rank": 6
+    },
+    "27": {
+        "mp_rank": 3,
+        "pp_rank": 6
+    },
+    "28": {
+        "mp_rank": 0,
+        "pp_rank": 7
+    },
+    "29": {
+        "mp_rank": 1,
+        "pp_rank": 7
+    },
+    "30": {
+        "mp_rank": 2,
+        "pp_rank": 7
+    },
+    "31": {
+        "mp_rank": 3,
+        "pp_rank": 7
+    }
+}

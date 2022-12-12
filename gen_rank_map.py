@@ -34,13 +34,15 @@ def main():
             mp_rank = int(ma.group(1))
             if pp_size > 1:
                 pp_rank = int(ma.group(2))
-                mapping[rank] = {'mp_rank': mp_rank, 'pp_rank': pp_rank}
+                mapping[rank] = {'mp_rank': mp_rank, 'pp_rank': pp_rank, 'dp_rank': 0}
             else:
-                mapping[rank] = {'mp_rank': mp_rank}
+                mapping[rank] = {'mp_rank': mp_rank, 'pp_rank': 0, 'dp_rank': 0}
             break
 
     with open(f'{direc}/rank_map.json', 'w') as json_file:
         json.dump(mapping, json_file, indent=4)
+
+    print("You must manually set the DP rank!!!")
 
 
 if __name__ == "__main__":

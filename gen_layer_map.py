@@ -5,7 +5,7 @@ import re
 
 def main():
     framework = 'deepspeed'
-    pp_size = 4
+    pp_size = 2
     mp_size = 1
     dp_size = 1
     total_size = pp_size * mp_size * dp_size

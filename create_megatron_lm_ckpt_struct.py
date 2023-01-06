@@ -36,27 +36,30 @@ def create_ckpt_dict(ckpt):
 
 
 def megatron_lm():
-    job_id = "ada9649e12"
+    job_id = "fdde722e3b"
     base_dir = os.path.join(os.path.expanduser('~'),
                             f".tenplex/training/{job_id}")
-    size = 8
-    pp = 1
-    mp = 1
+    size = 16
+    pp = 8
+    mp = 2
     dp = size // (pp * mp)
     step = 50
     seq_length = 1024
     precision = "fp16"
     model = "bert"
     model_size = "large"
-    out_dir = os.path.join(
-        os.path.expanduser('~'),
-        "Elasticity/Repo/transformer-checkpoint/megatron-lm")
+    out_dir = "./megatron-lm"
+    #  out_dir = os.path.join(
+    #      os.path.expanduser('~'),
+    #      "Elasticity/Repo/transformer-checkpoint/megatron-lm")
     # out_dir = os.path.join(out_dir, f"{precision}/seq_{seq_length}")
     out_dir = os.path.join(out_dir, f"{model}/{model_size}")
     out_dir = os.path.join(out_dir, f"pp{pp:02d}/mp{mp:02d}/dp{dp:02d}")
+    print(f"out dir {out_dir}")
     os.makedirs(out_dir, exist_ok=True)
 
     for rank in range(size):
+        print(f"rank {rank}")
         rank_input_path = os.path.join(base_dir,
                                        f"{rank}/ckpt/iter_{step:07d}")
 

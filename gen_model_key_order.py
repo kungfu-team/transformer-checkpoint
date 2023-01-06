@@ -51,7 +51,7 @@ def main():
     model_size = 'large'
     # precision = 'fp16'
     # seq_length = 1024
-    pp_size = 6
+    pp_size = 8
     mp_size = 2
     dp_size = 1
     total_size = pp_size * mp_size * dp_size

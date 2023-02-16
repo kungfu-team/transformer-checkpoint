@@ -6,10 +6,10 @@ import re
 def main():
     framework = 'megatron-lm'
     model = 'gpt'
-    model_size = 'xl'
+    model_size = 'large'
     # precision = 'fp16'
     # seq_length = 1024
-    pp_size = 4
+    pp_size = 8
     mp_size = 2
     dp_size = 1
     total_size = pp_size * mp_size * dp_size

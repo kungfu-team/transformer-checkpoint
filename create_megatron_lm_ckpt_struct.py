@@ -36,10 +36,10 @@ def create_ckpt_dict(ckpt):
 
 
 def megatron_lm():
-    job_id = "6509c9ef04"
+    job_id = "afa7f23323"
     base_dir = os.path.join(os.path.expanduser('~'),
                             f".tenplex/training/{job_id}")
-    size = 4
+    size = 2
     pp = 2
     mp = 1
     dp = size // (pp * mp)

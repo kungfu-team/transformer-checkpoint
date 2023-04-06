@@ -9,7 +9,7 @@ def main():
     model_size = 'xl'
     # precision = 'fp16'
     # seq_length = 1024
-    pp_size = 4
+    pp_size = 2
     mp_size = 1
     dp_size = 2
     total_size = pp_size * mp_size * dp_size

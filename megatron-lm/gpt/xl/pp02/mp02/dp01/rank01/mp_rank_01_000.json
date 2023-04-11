@@ -9,7 +9,7 @@
                     "weight": {
                         "tensor": [
                             25216,
-                            1536
+                            2064
                         ]
                     }
                 },
@@ -17,7 +17,7 @@
                     "weight": {
                         "tensor": [
                             1024,
-                            1536
+                            2064
                         ]
                     }
                 }
@@ -25,770 +25,770 @@
             "encoder": {
                 "layers.0.input_layernorm.weight": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.0.input_layernorm.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.0.self_attention.query_key_value.weight": {
                     "tensor": [
-                        2304,
-                        1536
+                        3096,
+                        2064
                     ]
                 },
                 "layers.0.self_attention.query_key_value.bias": {
                     "tensor": [
-                        2304
+                        3096
                     ]
                 },
                 "layers.0.self_attention.dense.weight": {
                     "tensor": [
-                        1536,
-                        768
+                        2064,
+                        1032
                     ]
                 },
                 "layers.0.self_attention.dense.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.0.post_attention_layernorm.weight": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.0.post_attention_layernorm.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.0.mlp.dense_h_to_4h.weight": {
                     "tensor": [
-                        3072,
-                        1536
+                        4128,
+                        2064
                     ]
                 },
                 "layers.0.mlp.dense_h_to_4h.bias": {
                     "tensor": [
-                        3072
+                        4128
                     ]
                 },
                 "layers.0.mlp.dense_4h_to_h.weight": {
                     "tensor": [
-                        1536,
-                        3072
+                        2064,
+                        4128
                     ]
                 },
                 "layers.0.mlp.dense_4h_to_h.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.1.input_layernorm.weight": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.1.input_layernorm.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.1.self_attention.query_key_value.weight": {
                     "tensor": [
-                        2304,
-                        1536
+                        3096,
+                        2064
                     ]
                 },
                 "layers.1.self_attention.query_key_value.bias": {
                     "tensor": [
-                        2304
+                        3096
                     ]
                 },
                 "layers.1.self_attention.dense.weight": {
                     "tensor": [
-                        1536,
-                        768
+                        2064,
+                        1032
                     ]
                 },
                 "layers.1.self_attention.dense.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.1.post_attention_layernorm.weight": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.1.post_attention_layernorm.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.1.mlp.dense_h_to_4h.weight": {
                     "tensor": [
-                        3072,
-                        1536
+                        4128,
+                        2064
                     ]
                 },
                 "layers.1.mlp.dense_h_to_4h.bias": {
                     "tensor": [
-                        3072
+                        4128
                     ]
                 },
                 "layers.1.mlp.dense_4h_to_h.weight": {
                     "tensor": [
-                        1536,
-                        3072
+                        2064,
+                        4128
                     ]
                 },
                 "layers.1.mlp.dense_4h_to_h.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.2.input_layernorm.weight": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.2.input_layernorm.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.2.self_attention.query_key_value.weight": {
                     "tensor": [
-                        2304,
-                        1536
+                        3096,
+                        2064
                     ]
                 },
                 "layers.2.self_attention.query_key_value.bias": {
                     "tensor": [
-                        2304
+                        3096
                     ]
                 },
                 "layers.2.self_attention.dense.weight": {
                     "tensor": [
-                        1536,
-                        768
+                        2064,
+                        1032
                     ]
                 },
                 "layers.2.self_attention.dense.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.2.post_attention_layernorm.weight": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.2.post_attention_layernorm.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.2.mlp.dense_h_to_4h.weight": {
                     "tensor": [
-                        3072,
-                        1536
+                        4128,
+                        2064
                     ]
                 },
                 "layers.2.mlp.dense_h_to_4h.bias": {
                     "tensor": [
-                        3072
+                        4128
                     ]
                 },
                 "layers.2.mlp.dense_4h_to_h.weight": {
                     "tensor": [
-                        1536,
-                        3072
+                        2064,
+                        4128
                     ]
                 },
                 "layers.2.mlp.dense_4h_to_h.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.3.input_layernorm.weight": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.3.input_layernorm.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.3.self_attention.query_key_value.weight": {
                     "tensor": [
-                        2304,
-                        1536
+                        3096,
+                        2064
                     ]
                 },
                 "layers.3.self_attention.query_key_value.bias": {
                     "tensor": [
-                        2304
+                        3096
                     ]
                 },
                 "layers.3.self_attention.dense.weight": {
                     "tensor": [
-                        1536,
-                        768
+                        2064,
+                        1032
                     ]
                 },
                 "layers.3.self_attention.dense.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.3.post_attention_layernorm.weight": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.3.post_attention_layernorm.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.3.mlp.dense_h_to_4h.weight": {
                     "tensor": [
-                        3072,
-                        1536
+                        4128,
+                        2064
                     ]
                 },
                 "layers.3.mlp.dense_h_to_4h.bias": {
                     "tensor": [
-                        3072
+                        4128
                     ]
                 },
                 "layers.3.mlp.dense_4h_to_h.weight": {
                     "tensor": [
-                        1536,
-                        3072
+                        2064,
+                        4128
                     ]
                 },
                 "layers.3.mlp.dense_4h_to_h.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.4.input_layernorm.weight": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.4.input_layernorm.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.4.self_attention.query_key_value.weight": {
                     "tensor": [
-                        2304,
-                        1536
+                        3096,
+                        2064
                     ]
                 },
                 "layers.4.self_attention.query_key_value.bias": {
                     "tensor": [
-                        2304
+                        3096
                     ]
                 },
                 "layers.4.self_attention.dense.weight": {
                     "tensor": [
-                        1536,
-                        768
+                        2064,
+                        1032
                     ]
                 },
                 "layers.4.self_attention.dense.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.4.post_attention_layernorm.weight": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.4.post_attention_layernorm.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.4.mlp.dense_h_to_4h.weight": {
                     "tensor": [
-                        3072,
-                        1536
+                        4128,
+                        2064
                     ]
                 },
                 "layers.4.mlp.dense_h_to_4h.bias": {
                     "tensor": [
-                        3072
+                        4128
                     ]
                 },
                 "layers.4.mlp.dense_4h_to_h.weight": {
                     "tensor": [
-                        1536,
-                        3072
+                        2064,
+                        4128
                     ]
                 },
                 "layers.4.mlp.dense_4h_to_h.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.5.input_layernorm.weight": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.5.input_layernorm.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.5.self_attention.query_key_value.weight": {
                     "tensor": [
-                        2304,
-                        1536
+                        3096,
+                        2064
                     ]
                 },
                 "layers.5.self_attention.query_key_value.bias": {
                     "tensor": [
-                        2304
+                        3096
                     ]
                 },
                 "layers.5.self_attention.dense.weight": {
                     "tensor": [
-                        1536,
-                        768
+                        2064,
+                        1032
                     ]
                 },
                 "layers.5.self_attention.dense.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.5.post_attention_layernorm.weight": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.5.post_attention_layernorm.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.5.mlp.dense_h_to_4h.weight": {
                     "tensor": [
-                        3072,
-                        1536
+                        4128,
+                        2064
                     ]
                 },
                 "layers.5.mlp.dense_h_to_4h.bias": {
                     "tensor": [
-                        3072
+                        4128
                     ]
                 },
                 "layers.5.mlp.dense_4h_to_h.weight": {
                     "tensor": [
-                        1536,
-                        3072
+                        2064,
+                        4128
                     ]
                 },
                 "layers.5.mlp.dense_4h_to_h.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.6.input_layernorm.weight": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.6.input_layernorm.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.6.self_attention.query_key_value.weight": {
                     "tensor": [
-                        2304,
-                        1536
+                        3096,
+                        2064
                     ]
                 },
                 "layers.6.self_attention.query_key_value.bias": {
                     "tensor": [
-                        2304
+                        3096
                     ]
                 },
                 "layers.6.self_attention.dense.weight": {
                     "tensor": [
-                        1536,
-                        768
+                        2064,
+                        1032
                     ]
                 },
                 "layers.6.self_attention.dense.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.6.post_attention_layernorm.weight": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.6.post_attention_layernorm.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.6.mlp.dense_h_to_4h.weight": {
                     "tensor": [
-                        3072,
-                        1536
+                        4128,
+                        2064
                     ]
                 },
                 "layers.6.mlp.dense_h_to_4h.bias": {
                     "tensor": [
-                        3072
+                        4128
                     ]
                 },
                 "layers.6.mlp.dense_4h_to_h.weight": {
                     "tensor": [
-                        1536,
-                        3072
+                        2064,
+                        4128
                     ]
                 },
                 "layers.6.mlp.dense_4h_to_h.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.7.input_layernorm.weight": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.7.input_layernorm.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.7.self_attention.query_key_value.weight": {
                     "tensor": [
-                        2304,
-                        1536
+                        3096,
+                        2064
                     ]
                 },
                 "layers.7.self_attention.query_key_value.bias": {
                     "tensor": [
-                        2304
+                        3096
                     ]
                 },
                 "layers.7.self_attention.dense.weight": {
                     "tensor": [
-                        1536,
-                        768
+                        2064,
+                        1032
                     ]
                 },
                 "layers.7.self_attention.dense.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.7.post_attention_layernorm.weight": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.7.post_attention_layernorm.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.7.mlp.dense_h_to_4h.weight": {
                     "tensor": [
-                        3072,
-                        1536
+                        4128,
+                        2064
                     ]
                 },
                 "layers.7.mlp.dense_h_to_4h.bias": {
                     "tensor": [
-                        3072
+                        4128
                     ]
                 },
                 "layers.7.mlp.dense_4h_to_h.weight": {
                     "tensor": [
-                        1536,
-                        3072
+                        2064,
+                        4128
                     ]
                 },
                 "layers.7.mlp.dense_4h_to_h.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.8.input_layernorm.weight": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.8.input_layernorm.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.8.self_attention.query_key_value.weight": {
                     "tensor": [
-                        2304,
-                        1536
+                        3096,
+                        2064
                     ]
                 },
                 "layers.8.self_attention.query_key_value.bias": {
                     "tensor": [
-                        2304
+                        3096
                     ]
                 },
                 "layers.8.self_attention.dense.weight": {
                     "tensor": [
-                        1536,
-                        768
+                        2064,
+                        1032
                     ]
                 },
                 "layers.8.self_attention.dense.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.8.post_attention_layernorm.weight": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.8.post_attention_layernorm.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.8.mlp.dense_h_to_4h.weight": {
                     "tensor": [
-                        3072,
-                        1536
+                        4128,
+                        2064
                     ]
                 },
                 "layers.8.mlp.dense_h_to_4h.bias": {
                     "tensor": [
-                        3072
+                        4128
                     ]
                 },
                 "layers.8.mlp.dense_4h_to_h.weight": {
                     "tensor": [
-                        1536,
-                        3072
+                        2064,
+                        4128
                     ]
                 },
                 "layers.8.mlp.dense_4h_to_h.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.9.input_layernorm.weight": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.9.input_layernorm.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.9.self_attention.query_key_value.weight": {
                     "tensor": [
-                        2304,
-                        1536
+                        3096,
+                        2064
                     ]
                 },
                 "layers.9.self_attention.query_key_value.bias": {
                     "tensor": [
-                        2304
+                        3096
                     ]
                 },
                 "layers.9.self_attention.dense.weight": {
                     "tensor": [
-                        1536,
-                        768
+                        2064,
+                        1032
                     ]
                 },
                 "layers.9.self_attention.dense.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.9.post_attention_layernorm.weight": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.9.post_attention_layernorm.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.9.mlp.dense_h_to_4h.weight": {
                     "tensor": [
-                        3072,
-                        1536
+                        4128,
+                        2064
                     ]
                 },
                 "layers.9.mlp.dense_h_to_4h.bias": {
                     "tensor": [
-                        3072
+                        4128
                     ]
                 },
                 "layers.9.mlp.dense_4h_to_h.weight": {
                     "tensor": [
-                        1536,
-                        3072
+                        2064,
+                        4128
                     ]
                 },
                 "layers.9.mlp.dense_4h_to_h.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.10.input_layernorm.weight": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.10.input_layernorm.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.10.self_attention.query_key_value.weight": {
                     "tensor": [
-                        2304,
-                        1536
+                        3096,
+                        2064
                     ]
                 },
                 "layers.10.self_attention.query_key_value.bias": {
                     "tensor": [
-                        2304
+                        3096
                     ]
                 },
                 "layers.10.self_attention.dense.weight": {
                     "tensor": [
-                        1536,
-                        768
+                        2064,
+                        1032
                     ]
                 },
                 "layers.10.self_attention.dense.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.10.post_attention_layernorm.weight": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.10.post_attention_layernorm.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.10.mlp.dense_h_to_4h.weight": {
                     "tensor": [
-                        3072,
-                        1536
+                        4128,
+                        2064
                     ]
                 },
                 "layers.10.mlp.dense_h_to_4h.bias": {
                     "tensor": [
-                        3072
+                        4128
                     ]
                 },
                 "layers.10.mlp.dense_4h_to_h.weight": {
                     "tensor": [
-                        1536,
-                        3072
+                        2064,
+                        4128
                     ]
                 },
                 "layers.10.mlp.dense_4h_to_h.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.11.input_layernorm.weight": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.11.input_layernorm.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.11.self_attention.query_key_value.weight": {
                     "tensor": [
-                        2304,
-                        1536
+                        3096,
+                        2064
                     ]
                 },
                 "layers.11.self_attention.query_key_value.bias": {
                     "tensor": [
-                        2304
+                        3096
                     ]
                 },
                 "layers.11.self_attention.dense.weight": {
                     "tensor": [
-                        1536,
-                        768
+                        2064,
+                        1032
                     ]
                 },
                 "layers.11.self_attention.dense.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.11.post_attention_layernorm.weight": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.11.post_attention_layernorm.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 "layers.11.mlp.dense_h_to_4h.weight": {
                     "tensor": [
-                        3072,
-                        1536
+                        4128,
+                        2064
                     ]
                 },
                 "layers.11.mlp.dense_h_to_4h.bias": {
                     "tensor": [
-                        3072
+                        4128
                     ]
                 },
                 "layers.11.mlp.dense_4h_to_h.weight": {
                     "tensor": [
-                        1536,
-                        3072
+                        2064,
+                        4128
                     ]
                 },
                 "layers.11.mlp.dense_4h_to_h.bias": {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 }
             }
@@ -801,13 +801,13 @@
                     "exp_avg": {
                         "tensor": [
                             25216,
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
                             25216,
-                            1536
+                            2064
                         ]
                     }
                 },
@@ -815,1837 +815,1837 @@
                     "exp_avg": {
                         "tensor": [
                             1024,
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
                             1024,
-                            1536
+                            2064
                         ]
                     }
                 },
                 "2": {
                     "exp_avg": {
                         "tensor": [
-                            2304,
-                            1536
+                            3096,
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            2304,
-                            1536
+                            3096,
+                            2064
                         ]
                     }
                 },
                 "3": {
                     "exp_avg": {
                         "tensor": [
-                            1536,
-                            768
+                            2064,
+                            1032
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536,
-                            768
+                            2064,
+                            1032
                         ]
                     }
                 },
                 "4": {
                     "exp_avg": {
                         "tensor": [
-                            3072,
-                            1536
+                            4128,
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            3072,
-                            1536
+                            4128,
+                            2064
                         ]
                     }
                 },
                 "5": {
                     "exp_avg": {
                         "tensor": [
-                            1536,
-                            3072
+                            2064,
+                            4128
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536,
-                            3072
+                            2064,
+                            4128
                         ]
                     }
                 },
                 "6": {
                     "exp_avg": {
                         "tensor": [
-                            2304,
-                            1536
+                            3096,
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            2304,
-                            1536
+                            3096,
+                            2064
                         ]
                     }
                 },
                 "7": {
                     "exp_avg": {
                         "tensor": [
-                            1536,
-                            768
+                            2064,
+                            1032
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536,
-                            768
+                            2064,
+                            1032
                         ]
                     }
                 },
                 "8": {
                     "exp_avg": {
                         "tensor": [
-                            3072,
-                            1536
+                            4128,
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            3072,
-                            1536
+                            4128,
+                            2064
                         ]
                     }
                 },
                 "9": {
                     "exp_avg": {
                         "tensor": [
-                            1536,
-                            3072
+                            2064,
+                            4128
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536,
-                            3072
+                            2064,
+                            4128
                         ]
                     }
                 },
                 "10": {
                     "exp_avg": {
                         "tensor": [
-                            2304,
-                            1536
+                            3096,
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            2304,
-                            1536
+                            3096,
+                            2064
                         ]
                     }
                 },
                 "11": {
                     "exp_avg": {
                         "tensor": [
-                            1536,
-                            768
+                            2064,
+                            1032
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536,
-                            768
+                            2064,
+                            1032
                         ]
                     }
                 },
                 "12": {
                     "exp_avg": {
                         "tensor": [
-                            3072,
-                            1536
+                            4128,
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            3072,
-                            1536
+                            4128,
+                            2064
                         ]
                     }
                 },
                 "13": {
                     "exp_avg": {
                         "tensor": [
-                            1536,
-                            3072
+                            2064,
+                            4128
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536,
-                            3072
+                            2064,
+                            4128
                         ]
                     }
                 },
                 "14": {
                     "exp_avg": {
                         "tensor": [
-                            2304,
-                            1536
+                            3096,
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            2304,
-                            1536
+                            3096,
+                            2064
                         ]
                     }
                 },
                 "15": {
                     "exp_avg": {
                         "tensor": [
-                            1536,
-                            768
+                            2064,
+                            1032
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536,
-                            768
+                            2064,
+                            1032
                         ]
                     }
                 },
                 "16": {
                     "exp_avg": {
                         "tensor": [
-                            3072,
-                            1536
+                            4128,
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            3072,
-                            1536
+                            4128,
+                            2064
                         ]
                     }
                 },
                 "17": {
                     "exp_avg": {
                         "tensor": [
-                            1536,
-                            3072
+                            2064,
+                            4128
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536,
-                            3072
+                            2064,
+                            4128
                         ]
                     }
                 },
                 "18": {
                     "exp_avg": {
                         "tensor": [
-                            2304,
-                            1536
+                            3096,
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            2304,
-                            1536
+                            3096,
+                            2064
                         ]
                     }
                 },
                 "19": {
                     "exp_avg": {
                         "tensor": [
-                            1536,
-                            768
+                            2064,
+                            1032
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536,
-                            768
+                            2064,
+                            1032
                         ]
                     }
                 },
                 "20": {
                     "exp_avg": {
                         "tensor": [
-                            3072,
-                            1536
+                            4128,
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            3072,
-                            1536
+                            4128,
+                            2064
                         ]
                     }
                 },
                 "21": {
                     "exp_avg": {
                         "tensor": [
-                            1536,
-                            3072
+                            2064,
+                            4128
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536,
-                            3072
+                            2064,
+                            4128
                         ]
                     }
                 },
                 "22": {
                     "exp_avg": {
                         "tensor": [
-                            2304,
-                            1536
+                            3096,
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            2304,
-                            1536
+                            3096,
+                            2064
                         ]
                     }
                 },
                 "23": {
                     "exp_avg": {
                         "tensor": [
-                            1536,
-                            768
+                            2064,
+                            1032
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536,
-                            768
+                            2064,
+                            1032
                         ]
                     }
                 },
                 "24": {
                     "exp_avg": {
                         "tensor": [
-                            3072,
-                            1536
+                            4128,
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            3072,
-                            1536
+                            4128,
+                            2064
                         ]
                     }
                 },
                 "25": {
                     "exp_avg": {
                         "tensor": [
-                            1536,
-                            3072
+                            2064,
+                            4128
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536,
-                            3072
+                            2064,
+                            4128
                         ]
                     }
                 },
                 "26": {
                     "exp_avg": {
                         "tensor": [
-                            2304,
-                            1536
+                            3096,
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            2304,
-                            1536
+                            3096,
+                            2064
                         ]
                     }
                 },
                 "27": {
                     "exp_avg": {
                         "tensor": [
-                            1536,
-                            768
+                            2064,
+                            1032
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536,
-                            768
+                            2064,
+                            1032
                         ]
                     }
                 },
                 "28": {
                     "exp_avg": {
                         "tensor": [
-                            3072,
-                            1536
+                            4128,
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            3072,
-                            1536
+                            4128,
+                            2064
                         ]
                     }
                 },
                 "29": {
                     "exp_avg": {
                         "tensor": [
-                            1536,
-                            3072
+                            2064,
+                            4128
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536,
-                            3072
+                            2064,
+                            4128
                         ]
                     }
                 },
                 "30": {
                     "exp_avg": {
                         "tensor": [
-                            2304,
-                            1536
+                            3096,
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            2304,
-                            1536
+                            3096,
+                            2064
                         ]
                     }
                 },
                 "31": {
                     "exp_avg": {
                         "tensor": [
-                            1536,
-                            768
+                            2064,
+                            1032
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536,
-                            768
+                            2064,
+                            1032
                         ]
                     }
                 },
                 "32": {
                     "exp_avg": {
                         "tensor": [
-                            3072,
-                            1536
+                            4128,
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            3072,
-                            1536
+                            4128,
+                            2064
                         ]
                     }
                 },
                 "33": {
                     "exp_avg": {
                         "tensor": [
-                            1536,
-                            3072
+                            2064,
+                            4128
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536,
-                            3072
+                            2064,
+                            4128
                         ]
                     }
                 },
                 "34": {
                     "exp_avg": {
                         "tensor": [
-                            2304,
-                            1536
+                            3096,
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            2304,
-                            1536
+                            3096,
+                            2064
                         ]
                     }
                 },
                 "35": {
                     "exp_avg": {
                         "tensor": [
-                            1536,
-                            768
+                            2064,
+                            1032
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536,
-                            768
+                            2064,
+                            1032
                         ]
                     }
                 },
                 "36": {
                     "exp_avg": {
                         "tensor": [
-                            3072,
-                            1536
+                            4128,
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            3072,
-                            1536
+                            4128,
+                            2064
                         ]
                     }
                 },
                 "37": {
                     "exp_avg": {
                         "tensor": [
-                            1536,
-                            3072
+                            2064,
+                            4128
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536,
-                            3072
+                            2064,
+                            4128
                         ]
                     }
                 },
                 "38": {
                     "exp_avg": {
                         "tensor": [
-                            2304,
-                            1536
+                            3096,
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            2304,
-                            1536
+                            3096,
+                            2064
                         ]
                     }
                 },
                 "39": {
                     "exp_avg": {
                         "tensor": [
-                            1536,
-                            768
+                            2064,
+                            1032
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536,
-                            768
+                            2064,
+                            1032
                         ]
                     }
                 },
                 "40": {
                     "exp_avg": {
                         "tensor": [
-                            3072,
-                            1536
+                            4128,
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            3072,
-                            1536
+                            4128,
+                            2064
                         ]
                     }
                 },
                 "41": {
                     "exp_avg": {
                         "tensor": [
-                            1536,
-                            3072
+                            2064,
+                            4128
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536,
-                            3072
+                            2064,
+                            4128
                         ]
                     }
                 },
                 "42": {
                     "exp_avg": {
                         "tensor": [
-                            2304,
-                            1536
+                            3096,
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            2304,
-                            1536
+                            3096,
+                            2064
                         ]
                     }
                 },
                 "43": {
                     "exp_avg": {
                         "tensor": [
-                            1536,
-                            768
+                            2064,
+                            1032
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536,
-                            768
+                            2064,
+                            1032
                         ]
                     }
                 },
                 "44": {
                     "exp_avg": {
                         "tensor": [
-                            3072,
-                            1536
+                            4128,
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            3072,
-                            1536
+                            4128,
+                            2064
                         ]
                     }
                 },
                 "45": {
                     "exp_avg": {
                         "tensor": [
-                            1536,
-                            3072
+                            2064,
+                            4128
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536,
-                            3072
+                            2064,
+                            4128
                         ]
                     }
                 },
                 "46": {
                     "exp_avg": {
                         "tensor": [
-                            2304,
-                            1536
+                            3096,
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            2304,
-                            1536
+                            3096,
+                            2064
                         ]
                     }
                 },
                 "47": {
                     "exp_avg": {
                         "tensor": [
-                            1536,
-                            768
+                            2064,
+                            1032
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536,
-                            768
+                            2064,
+                            1032
                         ]
                     }
                 },
                 "48": {
                     "exp_avg": {
                         "tensor": [
-                            3072,
-                            1536
+                            4128,
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            3072,
-                            1536
+                            4128,
+                            2064
                         ]
                     }
                 },
                 "49": {
                     "exp_avg": {
                         "tensor": [
-                            1536,
-                            3072
+                            2064,
+                            4128
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536,
-                            3072
+                            2064,
+                            4128
                         ]
                     }
                 },
                 "50": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "51": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "52": {
                     "exp_avg": {
                         "tensor": [
-                            2304
+                            3096
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            2304
+                            3096
                         ]
                     }
                 },
                 "53": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "54": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "55": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "56": {
                     "exp_avg": {
                         "tensor": [
-                            3072
+                            4128
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            3072
+                            4128
                         ]
                     }
                 },
                 "57": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "58": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "59": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "60": {
                     "exp_avg": {
                         "tensor": [
-                            2304
+                            3096
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            2304
+                            3096
                         ]
                     }
                 },
                 "61": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "62": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "63": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "64": {
                     "exp_avg": {
                         "tensor": [
-                            3072
+                            4128
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            3072
+                            4128
                         ]
                     }
                 },
                 "65": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "66": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "67": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "68": {
                     "exp_avg": {
                         "tensor": [
-                            2304
+                            3096
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            2304
+                            3096
                         ]
                     }
                 },
                 "69": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "70": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "71": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "72": {
                     "exp_avg": {
                         "tensor": [
-                            3072
+                            4128
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            3072
+                            4128
                         ]
                     }
                 },
                 "73": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "74": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "75": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "76": {
                     "exp_avg": {
                         "tensor": [
-                            2304
+                            3096
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            2304
+                            3096
                         ]
                     }
                 },
                 "77": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "78": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "79": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "80": {
                     "exp_avg": {
                         "tensor": [
-                            3072
+                            4128
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            3072
+                            4128
                         ]
                     }
                 },
                 "81": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "82": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "83": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "84": {
                     "exp_avg": {
                         "tensor": [
-                            2304
+                            3096
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            2304
+                            3096
                         ]
                     }
                 },
                 "85": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "86": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "87": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "88": {
                     "exp_avg": {
                         "tensor": [
-                            3072
+                            4128
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            3072
+                            4128
                         ]
                     }
                 },
                 "89": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "90": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "91": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "92": {
                     "exp_avg": {
                         "tensor": [
-                            2304
+                            3096
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            2304
+                            3096
                         ]
                     }
                 },
                 "93": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "94": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "95": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "96": {
                     "exp_avg": {
                         "tensor": [
-                            3072
+                            4128
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            3072
+                            4128
                         ]
                     }
                 },
                 "97": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "98": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "99": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "100": {
                     "exp_avg": {
                         "tensor": [
-                            2304
+                            3096
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            2304
+                            3096
                         ]
                     }
                 },
                 "101": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "102": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "103": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "104": {
                     "exp_avg": {
                         "tensor": [
-                            3072
+                            4128
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            3072
+                            4128
                         ]
                     }
                 },
                 "105": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "106": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "107": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "108": {
                     "exp_avg": {
                         "tensor": [
-                            2304
+                            3096
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            2304
+                            3096
                         ]
                     }
                 },
                 "109": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "110": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "111": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "112": {
                     "exp_avg": {
                         "tensor": [
-                            3072
+                            4128
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            3072
+                            4128
                         ]
                     }
                 },
                 "113": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "114": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "115": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "116": {
                     "exp_avg": {
                         "tensor": [
-                            2304
+                            3096
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            2304
+                            3096
                         ]
                     }
                 },
                 "117": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "118": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "119": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "120": {
                     "exp_avg": {
                         "tensor": [
-                            3072
+                            4128
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            3072
+                            4128
                         ]
                     }
                 },
                 "121": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "122": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "123": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "124": {
                     "exp_avg": {
                         "tensor": [
-                            2304
+                            3096
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            2304
+                            3096
                         ]
                     }
                 },
                 "125": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "126": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "127": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "128": {
                     "exp_avg": {
                         "tensor": [
-                            3072
+                            4128
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            3072
+                            4128
                         ]
                     }
                 },
                 "129": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "130": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "131": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "132": {
                     "exp_avg": {
                         "tensor": [
-                            2304
+                            3096
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            2304
+                            3096
                         ]
                     }
                 },
                 "133": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "134": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "135": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "136": {
                     "exp_avg": {
                         "tensor": [
-                            3072
+                            4128
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            3072
+                            4128
                         ]
                     }
                 },
                 "137": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "138": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "139": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "140": {
                     "exp_avg": {
                         "tensor": [
-                            2304
+                            3096
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            2304
+                            3096
                         ]
                     }
                 },
                 "141": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "142": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "143": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 },
                 "144": {
                     "exp_avg": {
                         "tensor": [
-                            3072
+                            4128
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            3072
+                            4128
                         ]
                     }
                 },
                 "145": {
                     "exp_avg": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     },
                     "exp_avg_sq": {
                         "tensor": [
-                            1536
+                            2064
                         ]
                     }
                 }
@@ -2654,7 +2654,7 @@
                 {
                     "wd_mult": 1.0,
                     "lr_mult": 1.0,
-                    "lr": 5.2499999999999995e-05,
+                    "lr": 4.95e-05,
                     "bias_correction": true,
                     "betas": [
                         0.9,
@@ -2662,7 +2662,7 @@
                     ],
                     "eps": 1e-08,
                     "weight_decay": 0.01,
-                    "step": 35,
+                    "step": 33,
                     "params": [
                         0,
                         1,
@@ -2719,7 +2719,7 @@
                 {
                     "wd_mult": 0.0,
                     "lr_mult": 1.0,
-                    "lr": 5.2499999999999995e-05,
+                    "lr": 4.95e-05,
                     "bias_correction": true,
                     "betas": [
                         0.9,
@@ -2727,7 +2727,7 @@
                     ],
                     "eps": 1e-08,
                     "weight_decay": 0.0,
-                    "step": 35,
+                    "step": 33,
                     "params": [
                         50,
                         51,
@@ -2835,791 +2835,791 @@
                     1
                 ]
             },
-            "growth_tracker": 35,
-            "hysteresis_tracker": -13
+            "growth_tracker": 29,
+            "hysteresis_tracker": -15
         },
         "fp32_from_fp16_params": [
             [
                 {
                     "tensor": [
                         25216,
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
                         1024,
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        2304,
-                        1536
+                        3096,
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536,
-                        768
+                        2064,
+                        1032
                     ]
                 },
                 {
                     "tensor": [
-                        3072,
-                        1536
+                        4128,
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536,
-                        3072
+                        2064,
+                        4128
                     ]
                 },
                 {
                     "tensor": [
-                        2304,
-                        1536
+                        3096,
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536,
-                        768
+                        2064,
+                        1032
                     ]
                 },
                 {
                     "tensor": [
-                        3072,
-                        1536
+                        4128,
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536,
-                        3072
+                        2064,
+                        4128
                     ]
                 },
                 {
                     "tensor": [
-                        2304,
-                        1536
+                        3096,
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536,
-                        768
+                        2064,
+                        1032
                     ]
                 },
                 {
                     "tensor": [
-                        3072,
-                        1536
+                        4128,
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536,
-                        3072
+                        2064,
+                        4128
                     ]
                 },
                 {
                     "tensor": [
-                        2304,
-                        1536
+                        3096,
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536,
-                        768
+                        2064,
+                        1032
                     ]
                 },
                 {
                     "tensor": [
-                        3072,
-                        1536
+                        4128,
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536,
-                        3072
+                        2064,
+                        4128
                     ]
                 },
                 {
                     "tensor": [
-                        2304,
-                        1536
+                        3096,
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536,
-                        768
+                        2064,
+                        1032
                     ]
                 },
                 {
                     "tensor": [
-                        3072,
-                        1536
+                        4128,
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536,
-                        3072
+                        2064,
+                        4128
                     ]
                 },
                 {
                     "tensor": [
-                        2304,
-                        1536
+                        3096,
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536,
-                        768
+                        2064,
+                        1032
                     ]
                 },
                 {
                     "tensor": [
-                        3072,
-                        1536
+                        4128,
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536,
-                        3072
+                        2064,
+                        4128
                     ]
                 },
                 {
                     "tensor": [
-                        2304,
-                        1536
+                        3096,
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536,
-                        768
+                        2064,
+                        1032
                     ]
                 },
                 {
                     "tensor": [
-                        3072,
-                        1536
+                        4128,
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536,
-                        3072
+                        2064,
+                        4128
                     ]
                 },
                 {
                     "tensor": [
-                        2304,
-                        1536
+                        3096,
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536,
-                        768
+                        2064,
+                        1032
                     ]
                 },
                 {
                     "tensor": [
-                        3072,
-                        1536
+                        4128,
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536,
-                        3072
+                        2064,
+                        4128
                     ]
                 },
                 {
                     "tensor": [
-                        2304,
-                        1536
+                        3096,
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536,
-                        768
+                        2064,
+                        1032
                     ]
                 },
                 {
                     "tensor": [
-                        3072,
-                        1536
+                        4128,
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536,
-                        3072
+                        2064,
+                        4128
                     ]
                 },
                 {
                     "tensor": [
-                        2304,
-                        1536
+                        3096,
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536,
-                        768
+                        2064,
+                        1032
                     ]
                 },
                 {
                     "tensor": [
-                        3072,
-                        1536
+                        4128,
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536,
-                        3072
+                        2064,
+                        4128
                     ]
                 },
                 {
                     "tensor": [
-                        2304,
-                        1536
+                        3096,
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536,
-                        768
+                        2064,
+                        1032
                     ]
                 },
                 {
                     "tensor": [
-                        3072,
-                        1536
+                        4128,
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536,
-                        3072
+                        2064,
+                        4128
                     ]
                 },
                 {
                     "tensor": [
-                        2304,
-                        1536
+                        3096,
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536,
-                        768
+                        2064,
+                        1032
                     ]
                 },
                 {
                     "tensor": [
-                        3072,
-                        1536
+                        4128,
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536,
-                        3072
+                        2064,
+                        4128
                     ]
                 }
             ],
             [
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        2304
+                        3096
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        3072
+                        4128
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        2304
+                        3096
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        3072
+                        4128
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        2304
+                        3096
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        3072
+                        4128
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        2304
+                        3096
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        3072
+                        4128
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        2304
+                        3096
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        3072
+                        4128
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        2304
+                        3096
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        3072
+                        4128
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        2304
+                        3096
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        3072
+                        4128
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        2304
+                        3096
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        3072
+                        4128
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        2304
+                        3096
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        3072
+                        4128
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        2304
+                        3096
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        3072
+                        4128
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        2304
+                        3096
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        3072
+                        4128
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        2304
+                        3096
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 },
                 {
                     "tensor": [
-                        3072
+                        4128
                     ]
                 },
                 {
                     "tensor": [
-                        1536
+                        2064
                     ]
                 }
             ]
@@ -3628,7 +3628,7 @@
     "opt_param_scheduler": {
         "max_lr": 0.00015,
         "lr_warmup_steps": 3200.0,
-        "num_steps": 1120,
+        "num_steps": 1056,
         "lr_decay_style": "cosine",
         "lr_decay_steps": 320000,
         "min_lr": 1e-05,

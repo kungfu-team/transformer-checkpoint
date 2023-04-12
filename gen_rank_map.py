@@ -6,7 +6,7 @@ import re
 def main():
     framework = 'megatron-lm'
     model = 'gpt'
-    model_size = 'xl'
+    model_size = 'large'
     # precision = 'fp16'
     # seq_length = 1024
     pp_size = 2
@@ -51,7 +51,7 @@ def main():
     with open(f'{direc}/rank_map.json', 'w') as json_file:
         json.dump(mapping, json_file, indent=4)
 
-    print("You must manually set some MDP ranks!!!")
+    print("You must set the DP ranks manually!!!")
 
 
 if __name__ == "__main__":

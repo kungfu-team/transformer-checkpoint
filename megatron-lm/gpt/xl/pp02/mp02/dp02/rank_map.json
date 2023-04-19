@@ -1,0 +1,42 @@
+{
+    "0": {
+        "mp_rank": 0,
+        "pp_rank": 0,
+        "dp_rank": 0
+    },
+    "1": {
+        "mp_rank": 1,
+        "pp_rank": 0,
+        "dp_rank": 0
+    },
+    "2": {
+        "mp_rank": 0,
+        "pp_rank": 0,
+        "dp_rank": 1
+    },
+    "3": {
+        "mp_rank": 1,
+        "pp_rank": 0,
+        "dp_rank": 1
+    },
+    "4": {
+        "mp_rank": 0,
+        "pp_rank": 1,
+        "dp_rank": 0
+    },
+    "5": {
+        "mp_rank": 1,
+        "pp_rank": 1,
+        "dp_rank": 0
+    },
+    "6": {
+        "mp_rank": 0,
+        "pp_rank": 1,
+        "dp_rank": 1
+    },
+    "7": {
+        "mp_rank": 1,
+        "pp_rank": 1,
+        "dp_rank": 1
+    }
+}

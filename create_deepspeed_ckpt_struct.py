@@ -36,15 +36,19 @@ def create_ckpt_dict(ckpt):
 
 
 def mdp():
-    base_dir = "/data/marcel/training"
-    size = 12
-    pp = 6
+    job_id = "41508a65bd"
+    base_dir = os.path.join(
+        os.path.expanduser('~'),
+        f".tenplex/training/{job_id}")
+    size = 4
+    pp = 2
     mp = 2
     dp = size // (pp * mp)
     step = 50
-    out_dir = os.path.join(
-        os.path.expanduser('~'),
-        "Elasticity/Repo/transformer-checkpoint/deepspeed/gpt-2/6dot7B")
+    out_dir = "./test"
+    #  out_dir = os.path.join(
+    #      os.path.expanduser('~'),
+    #      "Elasticity/Repo/transformer-checkpoint/deepspeed/gpt-2/6dot7B")
     out_dir = os.path.join(out_dir, f"pp{pp:02d}/mp{mp:02d}/dp{dp:02d}")
     os.makedirs(out_dir, exist_ok=True)
 

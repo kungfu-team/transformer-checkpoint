@@ -36,18 +36,16 @@ def create_ckpt_dict(ckpt):
 
 
 def megatron_lm():
-    job_id = "b1c79af3e0"
+    job_id = "30e065a104"
     base_dir = os.path.join(os.path.expanduser('~'),
                             f".tenplex/training/{job_id}")
-    size = 2
+    size = 4
     pp = 2
-    mp = 1
+    mp = 2
     dp = size // (pp * mp)
     step = 50
-    seq_length = 1024
-    precision = "fp16"
-    model = "gpt"
-    model_size = "large"
+    model = "bert"
+    model_size = "base"
     out_dir = "./megatron-lm"
     out_dir = os.path.join(out_dir, f"{model}/{model_size}")
     out_dir = os.path.join(out_dir, f"pp{pp:02d}/mp{mp:02d}/dp{dp:02d}")

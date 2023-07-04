@@ -47,15 +47,12 @@ def find_tensors(value, keys: list = None):
 
 def main():
     framework = 'megatron-lm'
-    model = 'gpt'
-    model_size = 'large'
-    # precision = 'fp16'
-    # seq_length = 1024
-    pp_size = 12
+    model = 'bert'
+    model_size = 'base'
+    pp_size = 2
     mp_size = 2
     dp_size = 1
     total_size = pp_size * mp_size * dp_size
-    # direc = f'{framework}/{precision}/seq_{seq_length}/pp{pp_size:02d}/mp{mp_size:02d}/dp{dp_size:02d}'
     direc = f'{framework}/{model}/{model_size}/pp{pp_size:02d}/mp{mp_size:02d}/dp{dp_size:02d}'
 
     model_keys = {}
@@ -76,9 +73,6 @@ def main():
             rank_struct = json.load(json_file)
 
         model_keys[rank] = find_tensors(rank_struct["model"], ["model"])
-
-    #  import pprint
-    #  pprint.pprint(model_keys)
 
     with open(os.path.join(direc, "model_keys.json"), "w") as json_file:
         json.dump(model_keys, json_file, indent=4)

@@ -47,9 +47,9 @@ def find_tensors(value, keys: list = None):
 
 def main():
     framework = 'megatron-lm'
-    model = 'gpt'
-    model_size = 'xl'
-    pp_size = 4
+    model = 'bert'
+    model_size = 'base'
+    pp_size = 2
     mp_size = 2
     dp_size = 2
     total_size = pp_size * mp_size * dp_size

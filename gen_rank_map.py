@@ -5,9 +5,9 @@ import re
 
 def main():
     framework = 'megatron-lm'
-    model = 'bert'
-    model_size = 'base'
-    pp_size = 2
+    model = 'gpt'
+    model_size = '2.7B'
+    pp_size = 1
     mp_size = 4
     dp_size = 1
     total_size = pp_size * mp_size * dp_size

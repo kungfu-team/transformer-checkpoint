@@ -49,9 +49,9 @@ def main():
     framework = 'megatron-lm'
     model = 'gpt'
     model_size = '2.7B'
-    pp_size = 4
+    pp_size = 8
     mp_size = 2
-    dp_size = 2
+    dp_size = 1
     total_size = pp_size * mp_size * dp_size
     direc = f'{framework}/{model}/{model_size}/pp{pp_size:02d}/mp{mp_size:02d}/dp{dp_size:02d}'
 

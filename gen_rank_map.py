@@ -6,10 +6,10 @@ import re
 def main():
     framework = 'megatron-lm'
     model = 'gpt'
-    model_size = '2.7B'
-    pp_size = 8
+    model_size = 'xl'
+    pp_size = 2
     mp_size = 2
-    dp_size = 1
+    dp_size = 4
     total_size = pp_size * mp_size * dp_size
     direc = f'{framework}/{model}/{model_size}/pp{pp_size:02d}/mp{mp_size:02d}/dp{dp_size:02d}'
 
@@ -33,14 +33,14 @@ def main():
             if pp_size > 1:
                 pp_rank = int(ma.group(2))
                 mapping[rank] = {
-                    'mp_rank': mp_rank,
                     'pp_rank': pp_rank,
+                    'mp_rank': mp_rank,
                     'dp_rank': 0
                 }
             else:
                 mapping[rank] = {
-                    'mp_rank': mp_rank,
                     'pp_rank': 0,
+                    'mp_rank': mp_rank,
                     'dp_rank': 0
                 }
             break

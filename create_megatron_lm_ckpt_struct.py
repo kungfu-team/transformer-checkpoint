@@ -14,7 +14,7 @@ def create_value_dict(value):
             elements[key] = create_value_dict(val)
         return elements
     if isinstance(value, torch.Tensor):
-        return {'tensor': list(value.size())}
+        return {"tensor": list(value.size())}
     if isinstance(value, (list, tuple)):
         elements = []
         for val in value:
@@ -23,7 +23,7 @@ def create_value_dict(value):
     if isinstance(value, (int, float, str, bool)):
         return value
 
-    return 'NotPrimitiveNorTensor'
+    return "NotPrimitiveNorTensor"
 
 
 def create_ckpt_dict(ckpt):
@@ -36,16 +36,15 @@ def create_ckpt_dict(ckpt):
 
 
 def megatron_lm():
-    job_id = "d9e045a08f"
-    base_dir = os.path.join(os.path.expanduser('~'),
-                            f".tenplex/training/{job_id}")
-    size = 16
-    pp = 8
+    job_id = "57838ecf6b"
+    base_dir = os.path.join(os.path.expanduser("~"), f".tenplex/training/{job_id}")
+    size = 8
+    pp = 1
     mp = 2
     dp = size // (pp * mp)
     step = 50
     model = "gpt"
-    model_size = "2.7B"
+    model_size = "xl"
     out_dir = "./megatron-lm"
     out_dir = os.path.join(out_dir, f"{model}/{model_size}")
     out_dir = os.path.join(out_dir, f"pp{pp:02d}/mp{mp:02d}/dp{dp:02d}")
@@ -54,8 +53,7 @@ def megatron_lm():
 
     for rank in range(size):
         print(f"rank {rank}")
-        rank_input_path = os.path.join(base_dir,
-                                       f"{rank}/ckpt/iter_{step:07d}")
+        rank_input_path = os.path.join(base_dir, f"{rank}/ckpt/iter_{step:07d}")
 
         if not os.path.isdir(rank_input_path):
             continue

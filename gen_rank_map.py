@@ -6,14 +6,14 @@ import re
 def main():
     framework = "megatron-lm"
     model = "gpt"
-    model_size = "xl"
+    model_size = "large"
     pp_size = 1
     mp_size = 2
-    dp_size = 8
+    dp_size = 2
     total_size = pp_size * mp_size * dp_size
     direc = f"{framework}/{model}/{model_size}/pp{pp_size:02d}/mp{mp_size:02d}/dp{dp_size:02d}"
 
-    mapping = dict()
+    mapping = {}
 
     for rank in range(total_size):
         rank_dir = os.path.join(direc, f"rank{rank:02d}")
@@ -37,7 +37,7 @@ def main():
                 mapping[rank] = {"pp_rank": 0, "mp_rank": mp_rank, "dp_rank": 0}
             break
 
-    with open(f"{direc}/rank_map.json", "w") as json_file:
+    with open(f"{direc}/rank_map.json", "w", encoding="utf-8") as json_file:
         json.dump(mapping, json_file, indent=4)
 
     print("You must set the DP ranks manually!!!")

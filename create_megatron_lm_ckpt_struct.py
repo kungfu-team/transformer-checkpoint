@@ -36,16 +36,15 @@ def create_ckpt_dict(ckpt):
 
 
 def megatron_lm():
-    job_id = "48b9c104c0"
-    #  base_dir = os.path.join(os.path.expanduser("~"), f".tenplex/training/{job_id}")
-    base_dir = "/data/marcel/tmp"
-    size = 16
-    pp = 2
-    mp = 4
+    job_id = "gen-para-config"
+    base_dir = os.path.join(os.path.expanduser("~"), f".tenplex/training/{job_id}")
+    size = 4
+    pp = 1
+    mp = 2
     dp = size // (pp * mp)
     step = 50
     model = "gpt"
-    model_size = "6.7B"
+    model_size = "large"
     out_dir = "./megatron-lm"
     out_dir = os.path.join(out_dir, f"{model}/{model_size}")
     out_dir = os.path.join(out_dir, f"pp{pp:02d}/mp{mp:02d}/dp{dp:02d}")
@@ -54,7 +53,8 @@ def megatron_lm():
 
     for rank in range(size):
         print(f"rank {rank}")
-        rank_input_path = os.path.join(base_dir, f"{rank}/ckpt/iter_{step:07d}")
+        # rank_input_path = os.path.join(base_dir, f"{rank}/ckpt/iter_{step:07d}")
+        rank_input_path = os.path.join(base_dir, f"0/ckpt/{rank}/iter_{step:07d}")
 
         if not os.path.isdir(rank_input_path):
             continue
@@ -73,7 +73,7 @@ def megatron_lm():
             new_name = entry.name.split(".")[0] + ".json"
             out_path = os.path.join(rank_output_path, new_name)
 
-            with open(out_path, "w") as dict_file:
+            with open(out_path, "w", encoding="utf-8") as dict_file:
                 json.dump(ckpt_dict, dict_file, indent=4)
 
 

@@ -1467,7 +1467,7 @@
                     1
                 ]
             },
-            "growth_tracker": 25,
+            "growth_tracker": 20,
             "hysteresis_tracker": -14
         },
         "fp32_from_fp16_params": [

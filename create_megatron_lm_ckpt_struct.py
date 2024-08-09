@@ -37,44 +37,53 @@ def create_ckpt_dict(ckpt):
 
 def megatron_lm():
     job_id = "gen-para-config"
-    base_dir = os.path.join(os.path.expanduser("~"), f".tenplex/training/{job_id}")
-    size = 4
-    pp = 1
-    mp = 2
+    # base_dir = os.path.join(os.path.expanduser("~"), f".tenplex/training/{job_id}")
+    base_dir = os.path.join(
+        os.path.expanduser("~"), f"Tenplex/repo/tenplex/benchmark/training/{job_id}"
+    )
+    size = 8
+    pp = 4
+    mp = 1
     dp = size // (pp * mp)
     step = 50
     model = "gpt"
     model_size = "large"
-    out_dir = "./megatron-lm"
+    out_dir = "megatron-lm"
     out_dir = os.path.join(out_dir, f"{model}/{model_size}")
     out_dir = os.path.join(out_dir, f"pp{pp:02d}/mp{mp:02d}/dp{dp:02d}")
     print(f"out dir {out_dir}")
     os.makedirs(out_dir, exist_ok=True)
+    gpus_container = 4
+    num_containers = size // gpus_container
 
-    for rank in range(size):
-        print(f"rank {rank}")
-        # rank_input_path = os.path.join(base_dir, f"{rank}/ckpt/iter_{step:07d}")
-        rank_input_path = os.path.join(base_dir, f"0/ckpt/{rank}/iter_{step:07d}")
+    for container in range(num_containers):
+        container_path = os.path.join(base_dir, f"{container}/ckpt")
+        for entry in os.scandir(container_path):
+            if not entry.is_dir() or entry.name == "tensorboard":
+                continue
+            rank = int(entry.name)
+            print(f"rank {rank}")
+            rank_input_path = os.path.join(entry.path, f"iter_{step:07d}")
 
-        if not os.path.isdir(rank_input_path):
-            continue
-
-        rank_output_path = os.path.join(out_dir, f"rank{rank:02d}")
-        os.makedirs(rank_output_path)
-
-        for entry in os.scandir(rank_input_path):
-            if not entry.is_dir():
+            if not os.path.isdir(rank_input_path):
                 continue
 
-            ckpt_path = os.path.join(entry.path, "model_optim_rng.pt")
+            rank_output_path = os.path.join(out_dir, f"rank{rank:02d}")
+            os.makedirs(rank_output_path)
 
-            ckpt = torch.load(ckpt_path, map_location=torch.device("cpu"))
-            ckpt_dict = create_ckpt_dict(ckpt)
-            new_name = entry.name.split(".")[0] + ".json"
-            out_path = os.path.join(rank_output_path, new_name)
+            for entry in os.scandir(rank_input_path):
+                if not entry.is_dir():
+                    continue
 
-            with open(out_path, "w", encoding="utf-8") as dict_file:
-                json.dump(ckpt_dict, dict_file, indent=4)
+                ckpt_path = os.path.join(entry.path, "model_optim_rng.pt")
+
+                ckpt = torch.load(ckpt_path, map_location=torch.device("cpu"))
+                ckpt_dict = create_ckpt_dict(ckpt)
+                new_name = entry.name.split(".")[0] + ".json"
+                out_path = os.path.join(rank_output_path, new_name)
+
+                with open(out_path, "w", encoding="utf-8") as dict_file:
+                    json.dump(ckpt_dict, dict_file, indent=4)
 
 
 def main():

@@ -49,7 +49,7 @@ def main():
     framework = "megatron-lm"
     model = "gpt"
     model_size = "large"
-    pp_size = 4
+    pp_size = 2
     mp_size = 1
     dp_size = 2
     total_size = pp_size * mp_size * dp_size

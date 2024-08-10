@@ -41,8 +41,8 @@ def megatron_lm():
     base_dir = os.path.join(
         os.path.expanduser("~"), f"Tenplex/repo/tenplex/benchmark/training/{job_id}"
     )
-    size = 8
-    pp = 4
+    size = 4
+    pp = 2
     mp = 1
     dp = size // (pp * mp)
     step = 50

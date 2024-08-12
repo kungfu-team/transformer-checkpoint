@@ -41,14 +41,16 @@ def megatron_lm():
     base_dir = os.path.join(
         os.path.expanduser("~"), f"Tenplex/repo/tenplex/benchmark/training/{job_id}"
     )
-    size = 4
-    pp = 2
-    mp = 1
+    size = 16
+    pp = 4
+    mp = 2
     dp = size // (pp * mp)
     step = 50
     model = "gpt"
-    model_size = "large"
+    model_size = "xl"
+    precision = "fp32"
     out_dir = "megatron-lm"
+    out_dir = os.path.join(out_dir, precision)
     out_dir = os.path.join(out_dir, f"{model}/{model_size}")
     out_dir = os.path.join(out_dir, f"pp{pp:02d}/mp{mp:02d}/dp{dp:02d}")
     print(f"out dir {out_dir}")

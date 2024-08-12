@@ -6,12 +6,14 @@ import re
 def main():
     framework = "megatron-lm"
     model = "gpt"
-    model_size = "large"
-    pp_size = 2
-    mp_size = 1
+    model_size = "xl"
+    precision = "fp32"
+    pp_size = 4
+    mp_size = 2
     dp_size = 2
     total_size = pp_size * mp_size * dp_size
-    direc = f"{framework}/{model}/{model_size}/pp{pp_size:02d}/mp{mp_size:02d}/dp{dp_size:02d}"
+    direc = f"{framework}/{precision}/{model}/{model_size}"
+    direc = os.path.join(direc, f"pp{pp_size:02d}/mp{mp_size:02d}/dp{dp_size:02d}")
 
     mapping = {}
 

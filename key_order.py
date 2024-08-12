@@ -45,17 +45,18 @@ def find_tensors(value, keys: list = None):
     return None
 
 
-def main():
-    framework = "megatron-lm"
-    model = "gpt"
-    model_size = "xl"
-    precision = "fp32"
-    pp_size = 4
-    mp_size = 2
-    dp_size = 2
-    total_size = pp_size * mp_size * dp_size
+def gen_key_order(
+    framework: str,
+    model: str,
+    model_size: str,
+    precision: str,
+    pp_size: int,
+    tp_size: int,
+    dp_size: int,
+):
+    total_size = pp_size * tp_size * dp_size
     direc = f"{framework}/{precision}/{model}/{model_size}"
-    direc = os.path.join(direc, f"pp{pp_size:02d}/mp{mp_size:02d}/dp{dp_size:02d}")
+    direc = os.path.join(direc, f"pp{pp_size:02d}/mp{tp_size:02d}/dp{dp_size:02d}")
 
     model_keys = {}
 
@@ -71,14 +72,11 @@ def main():
                 continue
             path = entry.path
 
-        with open(path, "r") as json_file:
+        with open(path, "r", encoding="utf-8") as json_file:
             rank_struct = json.load(json_file)
 
         model_keys[rank] = find_tensors(rank_struct["model"], ["model"])
 
-    with open(os.path.join(direc, "model_keys.json"), "w") as json_file:
+    path = os.path.join(direc, "model_keys.json")
+    with open(path, "w", encoding="utf-8") as json_file:
         json.dump(model_keys, json_file, indent=4)
-
-
-if __name__ == "__main__":
-    main()

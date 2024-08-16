@@ -1883,7 +1883,7 @@
         "start_wd": 0.01,
         "end_wd": 0.01,
         "wd_incr_style": "constant",
-        "wd_incr_steps": 6400
+        "wd_incr_steps": 1280000
     },
     "rng_state": [
         {
@@ -2532,13 +2532,13 @@
             },
             "cuda_rng_state": {
                 "tensor": [
-                    816
+                    16
                 ]
             },
             "rng_tracker_states": {
                 "model-parallel-rng": {
                     "tensor": [
-                        816
+                        16
                     ]
                 }
             }

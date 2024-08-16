@@ -3642,15 +3642,15 @@
     },
     "opt_param_scheduler": {
         "max_lr": 0.00015,
-        "lr_warmup_steps": 3200.0,
-        "num_steps": 1056,
+        "lr_warmup_steps": 12800.0,
+        "num_steps": 4224,
         "lr_decay_style": "cosine",
-        "lr_decay_steps": 320000,
+        "lr_decay_steps": 1280000,
         "min_lr": 1e-05,
         "start_wd": 0.01,
         "end_wd": 0.01,
         "wd_incr_style": "constant",
-        "wd_incr_steps": 1600
+        "wd_incr_steps": 1280000
     },
     "rng_state": [
         {
@@ -4299,13 +4299,13 @@
             },
             "cuda_rng_state": {
                 "tensor": [
-                    816
+                    16
                 ]
             },
             "rng_tracker_states": {
                 "model-parallel-rng": {
                     "tensor": [
-                        816
+                        16
                     ]
                 }
             }

@@ -5280,7 +5280,7 @@
                 {
                     "wd_mult": 1.0,
                     "lr_mult": 1.0,
-                    "lr": 5.099999999999999e-05,
+                    "lr": 5.2499999999999995e-05,
                     "bias_correction": true,
                     "betas": [
                         0.9,
@@ -5288,7 +5288,7 @@
                     ],
                     "eps": 1e-08,
                     "weight_decay": 0.01,
-                    "step": 34,
+                    "step": 35,
                     "params": [
                         0,
                         1,
@@ -5393,7 +5393,7 @@
                 {
                     "wd_mult": 0.0,
                     "lr_mult": 1.0,
-                    "lr": 5.099999999999999e-05,
+                    "lr": 5.2499999999999995e-05,
                     "bias_correction": true,
                     "betas": [
                         0.9,
@@ -5401,7 +5401,7 @@
                     ],
                     "eps": 1e-08,
                     "weight_decay": 0.0,
-                    "step": 34,
+                    "step": 35,
                     "params": [
                         98,
                         99,
@@ -5607,8 +5607,8 @@
                     1
                 ]
             },
-            "growth_tracker": 25,
-            "hysteresis_tracker": -14
+            "growth_tracker": 35,
+            "hysteresis_tracker": -13
         },
         "fp32_from_fp16_params": [
             [
@@ -7178,7 +7178,7 @@
     "opt_param_scheduler": {
         "max_lr": 0.00015,
         "lr_warmup_steps": 12800.0,
-        "num_steps": 4352,
+        "num_steps": 4480,
         "lr_decay_style": "cosine",
         "lr_decay_steps": 1280000,
         "min_lr": 1e-05,

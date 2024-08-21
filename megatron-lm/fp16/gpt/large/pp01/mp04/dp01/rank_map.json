@@ -1,0 +1,22 @@
+{
+    "0": {
+        "pp_rank": 0,
+        "mp_rank": 0,
+        "dp_rank": 0
+    },
+    "1": {
+        "pp_rank": 0,
+        "mp_rank": 1,
+        "dp_rank": 0
+    },
+    "2": {
+        "pp_rank": 0,
+        "mp_rank": 2,
+        "dp_rank": 0
+    },
+    "3": {
+        "pp_rank": 0,
+        "mp_rank": 3,
+        "dp_rank": 0
+    }
+}

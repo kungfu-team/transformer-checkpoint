@@ -732,7 +732,7 @@
                 {
                     "wd_mult": 1.0,
                     "lr_mult": 1.0,
-                    "lr": 3.4e-05,
+                    "lr": 3.5000000000000004e-05,
                     "bias_correction": true,
                     "betas": [
                         0.9,
@@ -740,7 +740,7 @@
                     ],
                     "eps": 1e-08,
                     "weight_decay": 0.01,
-                    "step": 34,
+                    "step": 35,
                     "params": [
                         0,
                         1,
@@ -762,7 +762,7 @@
                 {
                     "wd_mult": 0.0,
                     "lr_mult": 1.0,
-                    "lr": 3.4e-05,
+                    "lr": 3.5000000000000004e-05,
                     "bias_correction": true,
                     "betas": [
                         0.9,
@@ -770,7 +770,7 @@
                     ],
                     "eps": 1e-08,
                     "weight_decay": 0.0,
-                    "step": 34,
+                    "step": 35,
                     "params": [
                         15,
                         16,
@@ -806,8 +806,8 @@
                     1
                 ]
             },
-            "growth_tracker": 29,
-            "hysteresis_tracker": -14
+            "growth_tracker": 35,
+            "hysteresis_tracker": -13
         },
         "fp32_from_fp16_params": [
             [
@@ -1028,15 +1028,15 @@
     },
     "opt_param_scheduler": {
         "max_lr": 0.0001,
-        "lr_warmup_steps": 3200.0,
-        "num_steps": 1088,
+        "lr_warmup_steps": 12800.0,
+        "num_steps": 4480,
         "lr_decay_style": "linear",
-        "lr_decay_steps": 320000,
+        "lr_decay_steps": 1280000,
         "min_lr": 1e-05,
         "start_wd": 0.01,
         "end_wd": 0.01,
         "wd_incr_style": "constant",
-        "wd_incr_steps": 1600
+        "wd_incr_steps": 1280000
     },
     "rng_state": [
         {
@@ -1685,13 +1685,13 @@
             },
             "cuda_rng_state": {
                 "tensor": [
-                    816
+                    16
                 ]
             },
             "rng_tracker_states": {
                 "model-parallel-rng": {
                     "tensor": [
-                        816
+                        16
                     ]
                 }
             }

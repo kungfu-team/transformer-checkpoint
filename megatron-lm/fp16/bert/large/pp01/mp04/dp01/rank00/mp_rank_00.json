@@ -5807,7 +5807,7 @@
                     1
                 ]
             },
-            "growth_tracker": 31,
+            "growth_tracker": 27,
             "hysteresis_tracker": -14
         },
         "fp32_from_fp16_params": [
@@ -7431,15 +7431,15 @@
     },
     "opt_param_scheduler": {
         "max_lr": 0.0001,
-        "lr_warmup_steps": 3200.0,
-        "num_steps": 1088,
+        "lr_warmup_steps": 12800.0,
+        "num_steps": 4352,
         "lr_decay_style": "linear",
-        "lr_decay_steps": 320000,
+        "lr_decay_steps": 1280000,
         "min_lr": 1e-05,
         "start_wd": 0.01,
         "end_wd": 0.01,
         "wd_incr_style": "constant",
-        "wd_incr_steps": 1600
+        "wd_incr_steps": 1280000
     },
     "rng_state": [
         {
@@ -8088,13 +8088,13 @@
             },
             "cuda_rng_state": {
                 "tensor": [
-                    816
+                    16
                 ]
             },
             "rng_tracker_states": {
                 "model-parallel-rng": {
                     "tensor": [
-                        816
+                        16
                     ]
                 }
             }

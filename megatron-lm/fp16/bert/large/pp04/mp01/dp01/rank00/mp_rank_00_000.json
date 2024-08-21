@@ -1,7 +1,7 @@
 {
     "args": "NotPrimitiveNorTensor",
     "checkpoint_version": 3.0,
-    "iteration": 100,
+    "iteration": 50,
     "model": {
         "language_model": {
             "embedding": {
@@ -1380,7 +1380,7 @@
                 {
                     "wd_mult": 1.0,
                     "lr_mult": 1.0,
-                    "lr": 8.400000000000001e-05,
+                    "lr": 3.4e-05,
                     "bias_correction": true,
                     "betas": [
                         0.9,
@@ -1388,7 +1388,7 @@
                     ],
                     "eps": 1e-08,
                     "weight_decay": 0.01,
-                    "step": 84,
+                    "step": 34,
                     "params": [
                         0,
                         1,
@@ -1422,7 +1422,7 @@
                 {
                     "wd_mult": 0.0,
                     "lr_mult": 1.0,
-                    "lr": 8.400000000000001e-05,
+                    "lr": 3.4e-05,
                     "bias_correction": true,
                     "betas": [
                         0.9,
@@ -1430,7 +1430,7 @@
                     ],
                     "eps": 1e-08,
                     "weight_decay": 0.0,
-                    "step": 84,
+                    "step": 34,
                     "params": [
                         27,
                         28,
@@ -1490,7 +1490,7 @@
                     1
                 ]
             },
-            "growth_tracker": 84,
+            "growth_tracker": 29,
             "hysteresis_tracker": -14
         },
         "fp32_from_fp16_params": [
@@ -1904,15 +1904,15 @@
     },
     "opt_param_scheduler": {
         "max_lr": 0.0001,
-        "lr_warmup_steps": 3200.0,
-        "num_steps": 2688,
+        "lr_warmup_steps": 12800.0,
+        "num_steps": 4352,
         "lr_decay_style": "linear",
-        "lr_decay_steps": 320000,
+        "lr_decay_steps": 1280000,
         "min_lr": 1e-05,
         "start_wd": 0.01,
         "end_wd": 0.01,
         "wd_incr_style": "constant",
-        "wd_incr_steps": 3200
+        "wd_incr_steps": 1280000
     },
     "rng_state": [
         {
@@ -2561,13 +2561,13 @@
             },
             "cuda_rng_state": {
                 "tensor": [
-                    816
+                    16
                 ]
             },
             "rng_tracker_states": {
                 "model-parallel-rng": {
                     "tensor": [
-                        816
+                        16
                     ]
                 }
             }
